@@ -20,6 +20,10 @@
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/register.xml"
+    },
+    {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/skillsview.xml",
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/skillsview.xml"
     },
@@ -66,10 +70,6 @@
     {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -128,12 +128,20 @@
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
     },
     {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/createprofile.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/createprofile.xml"
+    },
+    {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/createskill.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/createskill.xml"
     },
     {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -170,5 +178,9 @@
     {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/editprofile.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/editprofile.xml"
     }
 ]

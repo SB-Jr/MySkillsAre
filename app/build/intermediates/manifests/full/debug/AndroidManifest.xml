@@ -14,13 +14,24 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.futurefirst.sbjr.myskillsare.MainActivity" >
+        <activity android:name="com.futurefirst.sbjr.myskillsare.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.futurefirst.sbjr.myskillsare.Register" />
+        <activity
+            android:name="com.futurefirst.sbjr.myskillsare.CreateProfile"
+            android:parentActivityName="com.futurefirst.sbjr.myskillsare.Register" />
+        <activity
+            android:name="com.futurefirst.sbjr.myskillsare.EditSkill"
+            android:parentActivityName="com.futurefirst.sbjr.myskillsare.CreateProfile" />
+        <activity android:name="com.futurefirst.sbjr.myskillsare.SkillView" />
+        <activity android:name="com.futurefirst.sbjr.myskillsare.EditProfile" />
+        <activity android:name="com.futurefirst.sbjr.myskillsare.Profile" />
+        <activity android:name="com.futurefirst.sbjr.myskillsare.Search" />
     </application>
 
 </manifest>

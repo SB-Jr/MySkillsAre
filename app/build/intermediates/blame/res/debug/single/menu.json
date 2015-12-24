@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/menu/loginmenu.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/menu/loginmenu.xml"
+    },
+    {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/menu/searchmenu.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/menu/searchmenu.xml"
+    },
+    {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/menu/skillmenu.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/menu/skillmenu.xml"
+    }
+]

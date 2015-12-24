@@ -213,7 +213,20 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">MySkillsAre</string>
+    <string name="createprofilebutton">Create Profile</string>
+    <string name="descriptiondefault">Description</string>
+    <string name="donebutton">Done</string>
+    <string name="emailiddefault">Email Id</string>
+    <string name="firstnamedefault">First Name</string>
+    <string name="lastnamedefault">Last Name</string>
+    <string name="locationdefault">Location</string>
+    <string name="loginbutton">Login</string>
+    <string name="registerbutton">Register</string>
+    <string name="searchicon">Search People</string>
+    <string name="setpicturedirection">Tap to add a Profile Picture</string>
+    <string name="skillnamedefault">Skill Name</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="yearofpracticedefault">Year of practice</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
