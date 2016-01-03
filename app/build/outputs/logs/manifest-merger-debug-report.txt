@@ -17,6 +17,7 @@ application
 ADDED from /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -76,6 +77,7 @@ ADDED from /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/Android
 uses-sdk
 INJECTED from /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/AndroidManifest.xml

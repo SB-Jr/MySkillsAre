@@ -10,11 +10,24 @@
         android:hint="@string/skillnamedefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/yearofpracticeedit"
-        android:hint="@string/yearofpracticedefault"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.02">
+        <TextView
+            android:id="@+id/yearofpracticeedit"
+            android:hint="@string/yearofpracticedefault"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical" />
+        <Button
+            android:onClick="datePick"
+            android:background="@android:drawable/ic_menu_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
     <EditText
         android:id="@+id/descriptionedit"
         android:hint="@string/descriptiondefault"
@@ -27,6 +40,7 @@
     <Button
         android:id="@+id/createskill"
         android:text="@string/donebutton"
+        android:onClick="doneSkillEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />

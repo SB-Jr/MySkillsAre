@@ -32,9 +32,14 @@
         android:hint="@string/locationdefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/warningregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"/>
     <Button
         android:id="@+id/createprofile"
-        android:hint="@string/createprofilebutton"
+        android:text="@string/createprofilebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="createprofile"

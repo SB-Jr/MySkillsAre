@@ -12,33 +12,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/lastnamelogin"
-        android:layout_alignParentStart="true"
-        android:phoneNumber="true" />
+        android:layout_alignParentStart="true" />
     <EditText
         android:id="@+id/lastnamelogin"
         android:hint="@string/lastnamedefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/emailidlogin"
-        android:layout_alignParentStart="true"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:padding="0dp"
-        android:paddingTop="0dp" />
+        android:layout_alignParentStart="true" />
     <EditText
         android:id="@+id/emailidlogin"
         android:hint="@string/emailiddefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/warninglogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailidlogin"
         android:layout_alignParentStart="true"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:padding="0dp"
-        android:paddingTop="0dp" />
+        android:textColor="@android:color/holo_red_dark"/>
     <Button
         android:id="@+id/login"
         android:text="@string/loginbutton"
+        android:onClick="login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"

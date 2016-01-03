@@ -2,6 +2,8 @@ package com.futurefirst.sbjr.myskillsare;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +11,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
 
@@ -17,10 +21,24 @@ public class Login extends AppCompatActivity {
     private String emailid = null;
 
 
+    EditText firstnameet = null;
+    EditText lastnameet = null;
+    EditText emailidet = null;
+
+    TextView warning=null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+
+        setTitle("Login");
+
+        firstnameet = (EditText) findViewById(R.id.firstnamelogin);
+        lastnameet = (EditText) findViewById(R.id.lastnamelogin);
+        emailidet = (EditText) findViewById(R.id.emailidlogin);
+
+        warning = (TextView) findViewById(R.id.warninglogin);
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
@@ -29,6 +47,7 @@ public class Login extends AppCompatActivity {
         emailid = sharedPreferences.getString(getString(R.string.emailiddefault),null);
         if(!(firstname==null||lastname==null||emailid==null)){
             Intent intent = new Intent(getApplicationContext(),Profile.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
         }
     }
@@ -42,8 +61,10 @@ public class Login extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId()==R.id.search)
+        if(item.getItemId()==R.id.search) {
             search();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -55,5 +76,47 @@ public class Login extends AppCompatActivity {
     public void search(){
         Intent intent = new Intent(getApplicationContext(),Search.class);
         startActivity(intent);
+    }
+
+    public void login(View v){
+
+        DatabaseHelper dbhelper = new DatabaseHelper(this);
+        SQLiteDatabase db = dbhelper.getReadableDatabase();
+
+        if(firstnameet.getText().length()==0){
+            warning.setText("Enter a proper First Name");
+        }
+        else if(lastnameet.getText().length()==0){
+            warning.setText("Enter a proper Last Name");
+        }
+        else if(emailidet.getText().length()==0){
+            warning.setText("Enter a proper Email ID");
+        }
+        else{
+            Intent intent = new Intent(getApplicationContext(),Profile.class);
+
+
+            String firstname = firstnameet.getText().toString();
+            String lastname = lastnameet.getText().toString();
+            String emailid = emailidet.getText().toString();
+
+            String query="SELECT * FROM "+ DatabaseContract.MemberTable.TABLENAME+//";";
+                    " WHERE "+ DatabaseContract.MemberTable.FIRSTNAME+" = \'"+firstname+
+                    "\' AND "+DatabaseContract.MemberTable.LASTNAME+" = \'"+lastname+
+                    "\' AND "+ DatabaseContract.MemberTable.EMAILID+" = \'"+emailid+"\';";
+
+            Cursor cursor = db.rawQuery(query,null);
+            if(cursor.moveToFirst()) {
+                warning.setText("Logging You In");
+                intent.putExtra(Register.EMAILIDKEY,emailid);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                db.close();
+                startActivity(intent);
+            }
+            else{
+                warning.setText("Wrong Credentials");
+                db.close();
+            }
+        }
     }
 }

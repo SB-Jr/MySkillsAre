@@ -1,14 +1,10 @@
 <resources>
     <string name="app_name">MySkillsAre</string>
 
-    <string name="firstnamedefault">First Name</string>
-    <!--shared preference: the user's  first name-->
-    <string name="lastnamedefault">Last Name</string>
-    <!--shared preference: the user's  last name-->
-    <string name="emailiddefault">Email Id</string>
-    <!--shared preference: the user's  email id-->
-    <string name="locationdefault">Location</string>
-    <!--shared preference: the user's  location-->
+    <string name="firstnamedefault">First Name</string>     <!--shared preference: the user's  first name-->
+    <string name="lastnamedefault">Last Name</string>       <!--shared preference: the user's  last name-->
+    <string name="emailiddefault">Email Id</string>         <!--shared preference: the user's  email id-->
+    <string name="locationdefault">Location</string>        <!--shared preference: the user's  location-->
     <string name="skillnamedefault">Skill Name</string>
     <string name="yearofpracticedefault">Year of practice</string>
     <string name="descriptiondefault">Description</string>
@@ -18,12 +14,16 @@
     <string name="registerbutton">Register</string>
     <string name="createprofilebutton">Create Profile</string>
     <string name="donebutton">Done</string>
+    <string name="addskillbutton">Add Skill</string>
 
 
     <string name="searchicon">Search People</string>
 
 
     <string name="setpicturedirection">Tap to add a Profile Picture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
