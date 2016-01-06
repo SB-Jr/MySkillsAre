@@ -22,6 +22,9 @@ public class SkillView extends AppCompatActivity {
     private final int REQUESTFOREDIT=200;
     public static final int EDITED=201;
 
+    private TextView tv1;
+    private TextView tv2;
+    private TextView tv3;
 
     public static final String SKILLNAMEFOREDIT="SkillNameForEdit";
     public static final String YEAROFPRACTICEFOREDIT="YearOfPracticeForEdit";
@@ -38,9 +41,9 @@ public class SkillView extends AppCompatActivity {
 
         setTitle(skill);
 
-        TextView tv1 = (TextView) findViewById(R.id.skillname);
-        TextView tv2 = (TextView) findViewById(R.id.yearofpractice);
-        TextView tv3 = (TextView) findViewById(R.id.description);
+        tv1 = (TextView) findViewById(R.id.skillname);
+        tv2 = (TextView) findViewById(R.id.yearofpractice);
+        tv3 = (TextView) findViewById(R.id.description);
 
         DatabaseHelper dbhelper = new DatabaseHelper(this);
         SQLiteDatabase db = dbhelper.getWritableDatabase();
@@ -54,6 +57,8 @@ public class SkillView extends AppCompatActivity {
             tv1.setText(cursor.getString(1));
             tv2.setText(cursor.getString(4));
             tv3.setText(cursor.getString(3));
+            yearOfStart = tv2.getText().toString();
+            description = tv3.getText().toString();
         }
         db.close();
     }
@@ -103,10 +108,13 @@ public class SkillView extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==REQUESTFOREDIT){
-            if(resultCode==EDITED){
                 String newSkill = data.getStringExtra(CreateSkillFragment.SKILLNAMEEDIT);
                 String newDescription = data.getStringExtra(CreateSkillFragment.DESCRIPTIONEDIT);
                 String newYearofstart = data.getStringExtra(CreateSkillFragment.STARTMONTHEDIT)+"/"+data.getStringExtra(CreateSkillFragment.STARTYEAREDIT);
+
+                tv1.setText(newSkill);
+                tv2.setText(newYearofstart);
+                tv3.setText(newDescription);
 
                 String delquery = "DELETE FROM "+ DatabaseContract.SkillTable.TABLENAME+
                         " WHERE "+ DatabaseContract.SkillTable.EMAILID+" = \'"+Profile.Emailid+"\'"+
@@ -118,7 +126,6 @@ public class SkillView extends AppCompatActivity {
                 db.close();
                 dbhelper.dbInsertTemp(newSkill, category, newYearofstart, newDescription);
                 dbhelper.dbInsertSkill(Profile.Emailid);
-            }
         }
     }
 }

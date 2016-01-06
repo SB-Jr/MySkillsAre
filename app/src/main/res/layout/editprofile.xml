@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <ImageButton
         android:id="@+id/profileimagesettings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/default_profile_image"
+        android:layout_weight="0.06" />
     <EditText
         android:id="@+id/firstnamesettings"
         android:text="@string/firstnamedefault"
@@ -19,14 +22,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-        android:id="@+id/emailidsettings"
-        android:text="@string/emailiddefault"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
         android:id="@+id/locationsettings"
         android:text="@string/locationdefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/updateprofile"
+        android:text="@string/updateprofilebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
     
 </LinearLayout>

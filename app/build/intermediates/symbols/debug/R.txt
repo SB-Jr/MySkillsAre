@@ -484,7 +484,6 @@ int id edit_query 0x7f0c0043
 int id editskilloption 0x7f0c0089
 int id emailidlogin 0x7f0c0060
 int id emailidregister 0x7f0c007e
-int id emailidsettings 0x7f0c005a
 int id end 0x7f0c0019
 int id end_padder 0x7f0c0071
 int id expand_activities_button 0x7f0c0025
@@ -509,7 +508,7 @@ int id list_item_skill_description 0x7f0c0083
 int id list_item_skill_name 0x7f0c0082
 int id locationprofile 0x7f0c0075
 int id locationregister 0x7f0c007f
-int id locationsettings 0x7f0c005b
+int id locationsettings 0x7f0c005a
 int id login 0x7f0c0062
 int id media_actions 0x7f0c0068
 int id middle 0x7f0c001a
@@ -574,6 +573,7 @@ int id title 0x7f0c002a
 int id title_template 0x7f0c002f
 int id topPanel 0x7f0c002e
 int id up 0x7f0c0008
+int id updateprofile 0x7f0c005b
 int id useLogo 0x7f0c0012
 int id viewpagercreateprofile 0x7f0c0051
 int id warninglogin 0x7f0c0061
@@ -675,7 +675,8 @@ int string searchicon 0x7f06001f
 int string setpicturedirection 0x7f060020
 int string skillnamedefault 0x7f060021
 int string status_bar_notification_info_overflow 0x7f060013
-int string yearofpracticedefault 0x7f060022
+int string updateprofilebutton 0x7f060022
+int string yearofpracticedefault 0x7f060023
 int style AlertDialog_AppCompat 0x7f09007d
 int style AlertDialog_AppCompat_Light 0x7f09007e
 int style Animation_AppCompat_Dialog 0x7f09007f

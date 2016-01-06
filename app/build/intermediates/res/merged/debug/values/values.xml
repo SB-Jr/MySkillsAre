@@ -228,6 +228,7 @@
     <string name="setpicturedirection">Tap to add a Profile Picture</string>
     <string name="skillnamedefault">Skill Name</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="updateprofilebutton">Update Profile</string>
     <string name="yearofpracticedefault">Year of practice</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

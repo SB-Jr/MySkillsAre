@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.Fragment;
@@ -30,6 +31,7 @@ public class Profile extends AppCompatActivity {
 
     public static final int FRAGMENTTYPEPROFILE = 123456;
     public static final String EMAILFROMPROFILE="EmailFromProfile";
+    public static int PROFILEEDITKEY=3456;
 
     CreateSkillFragment fragment[];
     ViewPager vp;
@@ -74,9 +76,11 @@ public class Profile extends AppCompatActivity {
 
 
         TextView tv2 = (TextView) findViewById(R.id.profileview_navigation_name);
-        tv.setText(s[0]+" "+s[1]);
+        tv2.setTextColor(Color.WHITE);
+        tv2.setText(s[0]+" "+s[1]);
         TextView tv3 = (TextView) findViewById(R.id.profileview_navigation_emailid);
-        tv1.setText(Emailid);
+        tv3.setTextColor(Color.WHITE);
+        tv3.setText(Emailid);
 
         ImageView picview = (ImageView) findViewById(R.id.profilepic_profileview);
         ImageView navpic = (ImageView) findViewById(R.id.profileview_navigation_profilepic);
@@ -120,7 +124,8 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
-                    case 0:
+                    case 0:Intent editProfileIndent = new Intent(getApplicationContext(),EditProfile.class);
+                        startActivityForResult(editProfileIndent, PROFILEEDITKEY);
                         break;
                     case 1:vp.setCurrentItem(0);
                         break;
@@ -147,9 +152,14 @@ public class Profile extends AppCompatActivity {
     }
 
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(resultCode==PROFILEEDITKEY){
+            if(resultCode==RESULT_OK){
 
-
-
+            }
+        }
+    }
 
     public class ProfilePagerAdapter extends FragmentPagerAdapter{
 

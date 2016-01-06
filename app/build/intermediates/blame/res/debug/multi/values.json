@@ -2407,8 +2407,27 @@
                     "startLine": 230,
                     "startColumn": 4,
                     "startOffset": 29460,
+                    "endColumn": 62,
+                    "endOffset": 29518
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 939,
+                        "endColumn": 62,
+                        "endOffset": 997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 29523,
                     "endColumn": 66,
-                    "endOffset": 29522
+                    "endOffset": 29585
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/values/strings.xml"
@@ -2416,23 +2435,11 @@
             },
             {
                 "to": {
-                    "startLine": 231,
-                    "startColumn": 4,
-                    "startOffset": 29527,
-                    "endColumn": 77,
-                    "endOffset": 29600
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 29605,
-                    "endColumn": 89,
-                    "endOffset": 29690
+                    "startOffset": 29590,
+                    "endColumn": 77,
+                    "endOffset": 29663
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2442,9 +2449,9 @@
                 "to": {
                     "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 29695,
-                    "endColumn": 87,
-                    "endOffset": 29778
+                    "startOffset": 29668,
+                    "endColumn": 89,
+                    "endOffset": 29753
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2454,9 +2461,9 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 29783,
-                    "endColumn": 95,
-                    "endOffset": 29874
+                    "startOffset": 29758,
+                    "endColumn": 87,
+                    "endOffset": 29841
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2466,23 +2473,9 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 29879,
-                    "endLine": 237,
-                    "endColumn": 12,
-                    "endOffset": 29982
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/values/styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 238,
-                    "startColumn": 4,
-                    "startOffset": 29987,
-                    "endLine": 244,
-                    "endColumn": 12,
-                    "endOffset": 30483
+                    "startOffset": 29846,
+                    "endColumn": 95,
+                    "endOffset": 29937
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2490,11 +2483,25 @@
             },
             {
                 "to": {
-                    "startLine": 245,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 30488,
-                    "endColumn": 88,
-                    "endOffset": 30572
+                    "startOffset": 29942,
+                    "endLine": 238,
+                    "endColumn": 12,
+                    "endOffset": 30045
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 30050,
+                    "endLine": 245,
+                    "endColumn": 12,
+                    "endOffset": 30546
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2504,10 +2511,9 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 30577,
-                    "endLine": 249,
-                    "endColumn": 12,
-                    "endOffset": 30819
+                    "startOffset": 30551,
+                    "endColumn": 88,
+                    "endOffset": 30635
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2515,12 +2521,12 @@
             },
             {
                 "to": {
-                    "startLine": 250,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 30824,
-                    "endLine": 253,
+                    "startOffset": 30640,
+                    "endLine": 250,
                     "endColumn": 12,
-                    "endOffset": 31100
+                    "endOffset": 30882
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2528,12 +2534,25 @@
             },
             {
                 "to": {
-                    "startLine": 254,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 31105,
-                    "endLine": 259,
+                    "startOffset": 30887,
+                    "endLine": 254,
                     "endColumn": 12,
-                    "endOffset": 31424
+                    "endOffset": 31163
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 31168,
+                    "endLine": 260,
+                    "endColumn": 12,
+                    "endOffset": 31487
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/values/styles.xml"
@@ -2541,12 +2560,12 @@
             },
             {
                 "to": {
-                    "startLine": 260,
+                    "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 31429,
-                    "endLine": 264,
+                    "startOffset": 31492,
+                    "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 31709
+                    "endOffset": 31772
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2554,12 +2573,12 @@
             },
             {
                 "to": {
-                    "startLine": 265,
+                    "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 31714,
-                    "endLine": 270,
+                    "startOffset": 31777,
+                    "endLine": 271,
                     "endColumn": 12,
-                    "endOffset": 32102
+                    "endOffset": 32165
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2567,12 +2586,12 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 32107,
-                    "endLine": 277,
+                    "startOffset": 32170,
+                    "endLine": 278,
                     "endColumn": 12,
-                    "endOffset": 32579
+                    "endOffset": 32642
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2580,12 +2599,12 @@
             },
             {
                 "to": {
-                    "startLine": 278,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 32584,
-                    "endLine": 281,
+                    "startOffset": 32647,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 32801
+                    "endOffset": 32864
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2593,12 +2612,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 32806,
-                    "endLine": 285,
+                    "startOffset": 32869,
+                    "endLine": 286,
                     "endColumn": 12,
-                    "endOffset": 33023
+                    "endOffset": 33086
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2606,12 +2625,12 @@
             },
             {
                 "to": {
-                    "startLine": 286,
+                    "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 33028,
-                    "endLine": 290,
+                    "startOffset": 33091,
+                    "endLine": 291,
                     "endColumn": 12,
-                    "endOffset": 33291
+                    "endOffset": 33354
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2619,12 +2638,12 @@
             },
             {
                 "to": {
-                    "startLine": 291,
+                    "startLine": 292,
                     "startColumn": 4,
-                    "startOffset": 33296,
-                    "endLine": 294,
+                    "startOffset": 33359,
+                    "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 33518
+                    "endOffset": 33581
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2632,12 +2651,12 @@
             },
             {
                 "to": {
-                    "startLine": 295,
+                    "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 33523,
-                    "endLine": 298,
+                    "startOffset": 33586,
+                    "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 33748
+                    "endOffset": 33811
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2645,12 +2664,12 @@
             },
             {
                 "to": {
-                    "startLine": 299,
+                    "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 33753,
-                    "endLine": 302,
+                    "startOffset": 33816,
+                    "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 33978
+                    "endOffset": 34041
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2658,12 +2677,12 @@
             },
             {
                 "to": {
-                    "startLine": 303,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 33983,
-                    "endLine": 306,
+                    "startOffset": 34046,
+                    "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 34208
+                    "endOffset": 34271
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2671,12 +2690,12 @@
             },
             {
                 "to": {
-                    "startLine": 307,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 34213,
-                    "endLine": 310,
+                    "startOffset": 34276,
+                    "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 34438
+                    "endOffset": 34501
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2684,12 +2703,12 @@
             },
             {
                 "to": {
-                    "startLine": 311,
+                    "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 34443,
-                    "endLine": 314,
+                    "startOffset": 34506,
+                    "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 34665
+                    "endOffset": 34728
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2697,12 +2716,12 @@
             },
             {
                 "to": {
-                    "startLine": 315,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 34670,
-                    "endLine": 318,
+                    "startOffset": 34733,
+                    "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 34904
+                    "endOffset": 34967
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2710,12 +2729,12 @@
             },
             {
                 "to": {
-                    "startLine": 319,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 34909,
-                    "endLine": 322,
+                    "startOffset": 34972,
+                    "endLine": 323,
                     "endColumn": 12,
-                    "endOffset": 35130
+                    "endOffset": 35193
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2723,12 +2742,12 @@
             },
             {
                 "to": {
-                    "startLine": 323,
+                    "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 35135,
-                    "endLine": 326,
+                    "startOffset": 35198,
+                    "endLine": 327,
                     "endColumn": 12,
-                    "endOffset": 35375
+                    "endOffset": 35438
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2736,12 +2755,12 @@
             },
             {
                 "to": {
-                    "startLine": 327,
+                    "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 35380,
-                    "endLine": 328,
+                    "startOffset": 35443,
+                    "endLine": 329,
                     "endColumn": 12,
-                    "endOffset": 35505
+                    "endOffset": 35568
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2749,12 +2768,12 @@
             },
             {
                 "to": {
-                    "startLine": 329,
+                    "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 35510,
-                    "endLine": 330,
+                    "startOffset": 35573,
+                    "endLine": 331,
                     "endColumn": 12,
-                    "endOffset": 35635
+                    "endOffset": 35698
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2762,12 +2781,12 @@
             },
             {
                 "to": {
-                    "startLine": 331,
+                    "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 35640,
-                    "endLine": 334,
+                    "startOffset": 35703,
+                    "endLine": 335,
                     "endColumn": 12,
-                    "endOffset": 35865
+                    "endOffset": 35928
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2775,12 +2794,12 @@
             },
             {
                 "to": {
-                    "startLine": 335,
+                    "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 35870,
-                    "endLine": 338,
+                    "startOffset": 35933,
+                    "endLine": 339,
                     "endColumn": 12,
-                    "endOffset": 36113
+                    "endOffset": 36176
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2788,12 +2807,12 @@
             },
             {
                 "to": {
-                    "startLine": 339,
+                    "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 36118,
-                    "endLine": 342,
+                    "startOffset": 36181,
+                    "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 36332
+                    "endOffset": 36395
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2801,12 +2820,12 @@
             },
             {
                 "to": {
-                    "startLine": 343,
+                    "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 36337,
-                    "endLine": 347,
+                    "startOffset": 36400,
+                    "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 36615
+                    "endOffset": 36678
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2814,12 +2833,12 @@
             },
             {
                 "to": {
-                    "startLine": 348,
+                    "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 36620,
-                    "endLine": 351,
+                    "startOffset": 36683,
+                    "endLine": 352,
                     "endColumn": 12,
-                    "endOffset": 36823
+                    "endOffset": 36886
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2827,12 +2846,12 @@
             },
             {
                 "to": {
-                    "startLine": 352,
+                    "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 36828,
-                    "endLine": 354,
+                    "startOffset": 36891,
+                    "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 36954
+                    "endOffset": 37017
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2840,12 +2859,12 @@
             },
             {
                 "to": {
-                    "startLine": 355,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 36959,
-                    "endLine": 358,
+                    "startOffset": 37022,
+                    "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 37181
+                    "endOffset": 37244
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2853,12 +2872,12 @@
             },
             {
                 "to": {
-                    "startLine": 359,
+                    "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 37186,
-                    "endLine": 362,
+                    "startOffset": 37249,
+                    "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 37427
+                    "endOffset": 37490
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2866,12 +2885,12 @@
             },
             {
                 "to": {
-                    "startLine": 363,
+                    "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 37432,
-                    "endLine": 366,
+                    "startOffset": 37495,
+                    "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 37652
+                    "endOffset": 37715
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2879,12 +2898,12 @@
             },
             {
                 "to": {
-                    "startLine": 367,
+                    "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 37657,
-                    "endLine": 370,
+                    "startOffset": 37720,
+                    "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 37899
+                    "endOffset": 37962
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2892,12 +2911,12 @@
             },
             {
                 "to": {
-                    "startLine": 371,
+                    "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 37904,
-                    "endLine": 374,
+                    "startOffset": 37967,
+                    "endLine": 375,
                     "endColumn": 12,
-                    "endOffset": 38120
+                    "endOffset": 38183
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2905,12 +2924,12 @@
             },
             {
                 "to": {
-                    "startLine": 375,
+                    "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 38125,
-                    "endLine": 378,
+                    "startOffset": 38188,
+                    "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 38365
+                    "endOffset": 38428
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2918,12 +2937,12 @@
             },
             {
                 "to": {
-                    "startLine": 379,
+                    "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 38370,
-                    "endLine": 382,
+                    "startOffset": 38433,
+                    "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 38639
+                    "endOffset": 38702
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2931,12 +2950,12 @@
             },
             {
                 "to": {
-                    "startLine": 383,
+                    "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 38644,
-                    "endLine": 386,
+                    "startOffset": 38707,
+                    "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 38940
+                    "endOffset": 39003
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2944,12 +2963,12 @@
             },
             {
                 "to": {
-                    "startLine": 387,
+                    "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 38945,
-                    "endLine": 390,
+                    "startOffset": 39008,
+                    "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 39264
+                    "endOffset": 39327
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2957,12 +2976,12 @@
             },
             {
                 "to": {
-                    "startLine": 391,
+                    "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 39269,
-                    "endLine": 394,
+                    "startOffset": 39332,
+                    "endLine": 395,
                     "endColumn": 12,
-                    "endOffset": 39555
+                    "endOffset": 39618
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2970,24 +2989,12 @@
             },
             {
                 "to": {
-                    "startLine": 395,
+                    "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 39560,
-                    "endLine": 398,
+                    "startOffset": 39623,
+                    "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 39869
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 399,
-                    "startColumn": 4,
-                    "startOffset": 39874,
-                    "endColumn": 136,
-                    "endOffset": 40006
+                    "endOffset": 39932
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -2997,9 +3004,9 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 40011,
-                    "endColumn": 130,
-                    "endOffset": 40137
+                    "startOffset": 39937,
+                    "endColumn": 136,
+                    "endOffset": 40069
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3009,9 +3016,9 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 40142,
-                    "endColumn": 104,
-                    "endOffset": 40242
+                    "startOffset": 40074,
+                    "endColumn": 130,
+                    "endOffset": 40200
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3021,61 +3028,61 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 40247,
-                    "endLine": 404,
-                    "endColumn": 12,
-                    "endOffset": 40446
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 405,
-                    "startColumn": 4,
-                    "startOffset": 40451,
-                    "endLine": 407,
-                    "endColumn": 12,
-                    "endOffset": 40654
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 408,
-                    "startColumn": 4,
-                    "startOffset": 40659,
-                    "endLine": 409,
-                    "endColumn": 12,
-                    "endOffset": 40778
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 410,
-                    "startColumn": 4,
-                    "startOffset": 40783,
-                    "endLine": 411,
-                    "endColumn": 12,
-                    "endOffset": 40902
-                },
-                "from": {
-                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 412,
-                    "startColumn": 4,
-                    "startOffset": 40907,
+                    "startOffset": 40205,
                     "endColumn": 104,
-                    "endOffset": 41007
+                    "endOffset": 40305
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 40310,
+                    "endLine": 405,
+                    "endColumn": 12,
+                    "endOffset": 40509
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 40514,
+                    "endLine": 408,
+                    "endColumn": 12,
+                    "endOffset": 40717
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 40722,
+                    "endLine": 410,
+                    "endColumn": 12,
+                    "endOffset": 40841
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 40846,
+                    "endLine": 412,
+                    "endColumn": 12,
+                    "endOffset": 40965
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3085,9 +3092,9 @@
                 "to": {
                     "startLine": 413,
                     "startColumn": 4,
-                    "startOffset": 41012,
-                    "endColumn": 116,
-                    "endOffset": 41124
+                    "startOffset": 40970,
+                    "endColumn": 104,
+                    "endOffset": 41070
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3097,10 +3104,9 @@
                 "to": {
                     "startLine": 414,
                     "startColumn": 4,
-                    "startOffset": 41129,
-                    "endLine": 416,
-                    "endColumn": 12,
-                    "endOffset": 41338
+                    "startOffset": 41075,
+                    "endColumn": 116,
+                    "endOffset": 41187
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3108,12 +3114,12 @@
             },
             {
                 "to": {
-                    "startLine": 417,
+                    "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 41343,
-                    "endLine": 418,
+                    "startOffset": 41192,
+                    "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 41484
+                    "endOffset": 41401
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3121,12 +3127,12 @@
             },
             {
                 "to": {
-                    "startLine": 419,
+                    "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 41489,
-                    "endLine": 420,
+                    "startOffset": 41406,
+                    "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 41624
+                    "endOffset": 41547
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3134,12 +3140,12 @@
             },
             {
                 "to": {
-                    "startLine": 421,
+                    "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 41629,
-                    "endLine": 422,
+                    "startOffset": 41552,
+                    "endLine": 421,
                     "endColumn": 12,
-                    "endOffset": 41710
+                    "endOffset": 41687
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3147,12 +3153,12 @@
             },
             {
                 "to": {
-                    "startLine": 423,
+                    "startLine": 422,
                     "startColumn": 4,
-                    "startOffset": 41715,
-                    "endLine": 427,
+                    "startOffset": 41692,
+                    "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 42058
+                    "endOffset": 41773
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3160,11 +3166,12 @@
             },
             {
                 "to": {
-                    "startLine": 428,
+                    "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 42063,
-                    "endColumn": 87,
-                    "endOffset": 42146
+                    "startOffset": 41778,
+                    "endLine": 428,
+                    "endColumn": 12,
+                    "endOffset": 42121
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3174,10 +3181,9 @@
                 "to": {
                     "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 42151,
-                    "endLine": 432,
-                    "endColumn": 12,
-                    "endOffset": 42376
+                    "startOffset": 42126,
+                    "endColumn": 87,
+                    "endOffset": 42209
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3185,12 +3191,12 @@
             },
             {
                 "to": {
-                    "startLine": 433,
+                    "startLine": 430,
                     "startColumn": 4,
-                    "startOffset": 42381,
-                    "endLine": 438,
+                    "startOffset": 42214,
+                    "endLine": 433,
                     "endColumn": 12,
-                    "endOffset": 42794
+                    "endOffset": 42439
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3198,12 +3204,12 @@
             },
             {
                 "to": {
-                    "startLine": 439,
+                    "startLine": 434,
                     "startColumn": 4,
-                    "startOffset": 42799,
-                    "endLine": 442,
+                    "startOffset": 42444,
+                    "endLine": 439,
                     "endColumn": 12,
-                    "endOffset": 43027
+                    "endOffset": 42857
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3211,11 +3217,12 @@
             },
             {
                 "to": {
-                    "startLine": 443,
+                    "startLine": 440,
                     "startColumn": 4,
-                    "startOffset": 43032,
-                    "endColumn": 81,
-                    "endOffset": 43109
+                    "startOffset": 42862,
+                    "endLine": 443,
+                    "endColumn": 12,
+                    "endOffset": 43090
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3225,10 +3232,9 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 43114,
-                    "endLine": 445,
-                    "endColumn": 12,
-                    "endOffset": 43207
+                    "startOffset": 43095,
+                    "endColumn": 81,
+                    "endOffset": 43172
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3236,12 +3242,12 @@
             },
             {
                 "to": {
-                    "startLine": 446,
+                    "startLine": 445,
                     "startColumn": 4,
-                    "startOffset": 43212,
-                    "endLine": 456,
+                    "startOffset": 43177,
+                    "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 43824
+                    "endOffset": 43270
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3249,11 +3255,12 @@
             },
             {
                 "to": {
-                    "startLine": 457,
+                    "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 43829,
-                    "endColumn": 99,
-                    "endOffset": 43924
+                    "startOffset": 43275,
+                    "endLine": 457,
+                    "endColumn": 12,
+                    "endOffset": 43887
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3263,10 +3270,9 @@
                 "to": {
                     "startLine": 458,
                     "startColumn": 4,
-                    "startOffset": 43929,
-                    "endLine": 461,
-                    "endColumn": 12,
-                    "endOffset": 44160
+                    "startOffset": 43892,
+                    "endColumn": 99,
+                    "endOffset": 43987
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3274,12 +3280,12 @@
             },
             {
                 "to": {
-                    "startLine": 462,
+                    "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 44165,
-                    "endLine": 467,
+                    "startOffset": 43992,
+                    "endLine": 462,
                     "endColumn": 12,
-                    "endOffset": 44584
+                    "endOffset": 44223
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3287,12 +3293,12 @@
             },
             {
                 "to": {
-                    "startLine": 468,
+                    "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 44589,
-                    "endLine": 471,
+                    "startOffset": 44228,
+                    "endLine": 468,
                     "endColumn": 12,
-                    "endOffset": 44823
+                    "endOffset": 44647
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3300,11 +3306,12 @@
             },
             {
                 "to": {
-                    "startLine": 472,
+                    "startLine": 469,
                     "startColumn": 4,
-                    "startOffset": 44828,
-                    "endColumn": 93,
-                    "endOffset": 44917
+                    "startOffset": 44652,
+                    "endLine": 472,
+                    "endColumn": 12,
+                    "endOffset": 44886
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3314,9 +3321,9 @@
                 "to": {
                     "startLine": 473,
                     "startColumn": 4,
-                    "startOffset": 44922,
-                    "endColumn": 88,
-                    "endOffset": 45006
+                    "startOffset": 44891,
+                    "endColumn": 93,
+                    "endOffset": 44980
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3326,10 +3333,9 @@
                 "to": {
                     "startLine": 474,
                     "startColumn": 4,
-                    "startOffset": 45011,
-                    "endLine": 477,
-                    "endColumn": 12,
-                    "endOffset": 45243
+                    "startOffset": 44985,
+                    "endColumn": 88,
+                    "endOffset": 45069
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3337,12 +3343,12 @@
             },
             {
                 "to": {
-                    "startLine": 478,
+                    "startLine": 475,
                     "startColumn": 4,
-                    "startOffset": 45248,
-                    "endLine": 503,
+                    "startOffset": 45074,
+                    "endLine": 478,
                     "endColumn": 12,
-                    "endOffset": 47194
+                    "endOffset": 45306
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3350,12 +3356,12 @@
             },
             {
                 "to": {
-                    "startLine": 504,
+                    "startLine": 479,
                     "startColumn": 4,
-                    "startOffset": 47199,
-                    "endLine": 507,
+                    "startOffset": 45311,
+                    "endLine": 504,
                     "endColumn": 12,
-                    "endOffset": 47436
+                    "endOffset": 47257
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3363,12 +3369,12 @@
             },
             {
                 "to": {
-                    "startLine": 508,
+                    "startLine": 505,
                     "startColumn": 4,
-                    "startOffset": 47441,
-                    "endLine": 534,
+                    "startOffset": 47262,
+                    "endLine": 508,
                     "endColumn": 12,
-                    "endOffset": 49518
+                    "endOffset": 47499
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3376,12 +3382,12 @@
             },
             {
                 "to": {
-                    "startLine": 535,
+                    "startLine": 509,
                     "startColumn": 4,
-                    "startOffset": 49523,
-                    "endLine": 687,
+                    "startOffset": 47504,
+                    "endLine": 535,
                     "endColumn": 12,
-                    "endOffset": 59200
+                    "endOffset": 49581
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3389,12 +3395,12 @@
             },
             {
                 "to": {
-                    "startLine": 688,
+                    "startLine": 536,
                     "startColumn": 4,
-                    "startOffset": 59205,
-                    "endLine": 709,
+                    "startOffset": 49586,
+                    "endLine": 688,
                     "endColumn": 12,
-                    "endOffset": 60467
+                    "endOffset": 59263
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3402,12 +3408,12 @@
             },
             {
                 "to": {
-                    "startLine": 710,
+                    "startLine": 689,
                     "startColumn": 4,
-                    "startOffset": 60472,
-                    "endLine": 862,
+                    "startOffset": 59268,
+                    "endLine": 710,
                     "endColumn": 12,
-                    "endOffset": 70259
+                    "endOffset": 60530
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3415,12 +3421,12 @@
             },
             {
                 "to": {
-                    "startLine": 863,
+                    "startLine": 711,
                     "startColumn": 4,
-                    "startOffset": 70264,
-                    "endLine": 884,
+                    "startOffset": 60535,
+                    "endLine": 863,
                     "endColumn": 12,
-                    "endOffset": 71540
+                    "endOffset": 70322
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3428,12 +3434,12 @@
             },
             {
                 "to": {
-                    "startLine": 885,
+                    "startLine": 864,
                     "startColumn": 4,
-                    "startOffset": 71545,
-                    "endLine": 891,
+                    "startOffset": 70327,
+                    "endLine": 885,
                     "endColumn": 12,
-                    "endOffset": 72076
+                    "endOffset": 71603
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3441,12 +3447,12 @@
             },
             {
                 "to": {
-                    "startLine": 892,
+                    "startLine": 886,
                     "startColumn": 4,
-                    "startOffset": 72081,
-                    "endLine": 896,
+                    "startOffset": 71608,
+                    "endLine": 892,
                     "endColumn": 12,
-                    "endOffset": 72406
+                    "endOffset": 72139
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3454,12 +3460,12 @@
             },
             {
                 "to": {
-                    "startLine": 897,
+                    "startLine": 893,
                     "startColumn": 4,
-                    "startOffset": 72411,
-                    "endLine": 917,
+                    "startOffset": 72144,
+                    "endLine": 897,
                     "endColumn": 12,
-                    "endOffset": 73529
+                    "endOffset": 72469
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3467,12 +3473,12 @@
             },
             {
                 "to": {
-                    "startLine": 918,
+                    "startLine": 898,
                     "startColumn": 4,
-                    "startOffset": 73534,
-                    "endLine": 922,
+                    "startOffset": 72474,
+                    "endLine": 918,
                     "endColumn": 12,
-                    "endOffset": 73785
+                    "endOffset": 73592
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3480,12 +3486,12 @@
             },
             {
                 "to": {
-                    "startLine": 923,
+                    "startLine": 919,
                     "startColumn": 4,
-                    "startOffset": 73790,
-                    "endLine": 927,
+                    "startOffset": 73597,
+                    "endLine": 923,
                     "endColumn": 12,
-                    "endOffset": 74021
+                    "endOffset": 73848
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3493,12 +3499,12 @@
             },
             {
                 "to": {
-                    "startLine": 928,
+                    "startLine": 924,
                     "startColumn": 4,
-                    "startOffset": 74026,
-                    "endLine": 937,
+                    "startOffset": 73853,
+                    "endLine": 928,
                     "endColumn": 12,
-                    "endOffset": 74568
+                    "endOffset": 74084
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3506,12 +3512,12 @@
             },
             {
                 "to": {
-                    "startLine": 938,
+                    "startLine": 929,
                     "startColumn": 4,
-                    "startOffset": 74573,
-                    "endLine": 946,
+                    "startOffset": 74089,
+                    "endLine": 938,
                     "endColumn": 12,
-                    "endOffset": 75062
+                    "endOffset": 74631
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3519,12 +3525,12 @@
             },
             {
                 "to": {
-                    "startLine": 947,
+                    "startLine": 939,
                     "startColumn": 4,
-                    "startOffset": 75067,
-                    "endLine": 955,
+                    "startOffset": 74636,
+                    "endLine": 947,
                     "endColumn": 12,
-                    "endOffset": 75667
+                    "endOffset": 75125
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3532,12 +3538,12 @@
             },
             {
                 "to": {
-                    "startLine": 956,
+                    "startLine": 948,
                     "startColumn": 4,
-                    "startOffset": 75672,
-                    "endLine": 958,
+                    "startOffset": 75130,
+                    "endLine": 956,
                     "endColumn": 12,
-                    "endOffset": 75815
+                    "endOffset": 75730
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3545,12 +3551,12 @@
             },
             {
                 "to": {
-                    "startLine": 959,
+                    "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 75820,
-                    "endLine": 965,
+                    "startOffset": 75735,
+                    "endLine": 959,
                     "endColumn": 12,
-                    "endOffset": 76403
+                    "endOffset": 75878
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3558,12 +3564,12 @@
             },
             {
                 "to": {
-                    "startLine": 966,
+                    "startLine": 960,
                     "startColumn": 4,
-                    "startOffset": 76408,
-                    "endLine": 973,
+                    "startOffset": 75883,
+                    "endLine": 966,
                     "endColumn": 12,
-                    "endOffset": 76967
+                    "endOffset": 76466
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3571,12 +3577,12 @@
             },
             {
                 "to": {
-                    "startLine": 974,
+                    "startLine": 967,
                     "startColumn": 4,
-                    "startOffset": 76972,
-                    "endLine": 980,
+                    "startOffset": 76471,
+                    "endLine": 974,
                     "endColumn": 12,
-                    "endOffset": 77342
+                    "endOffset": 77030
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3584,11 +3590,12 @@
             },
             {
                 "to": {
-                    "startLine": 981,
+                    "startLine": 975,
                     "startColumn": 4,
-                    "startOffset": 77347,
-                    "endColumn": 117,
-                    "endOffset": 77460
+                    "startOffset": 77035,
+                    "endLine": 981,
+                    "endColumn": 12,
+                    "endOffset": 77405
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3598,10 +3605,9 @@
                 "to": {
                     "startLine": 982,
                     "startColumn": 4,
-                    "startOffset": 77465,
-                    "endLine": 990,
-                    "endColumn": 12,
-                    "endOffset": 77998
+                    "startOffset": 77410,
+                    "endColumn": 117,
+                    "endOffset": 77523
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3609,12 +3615,12 @@
             },
             {
                 "to": {
-                    "startLine": 991,
+                    "startLine": 983,
                     "startColumn": 4,
-                    "startOffset": 78003,
-                    "endLine": 993,
+                    "startOffset": 77528,
+                    "endLine": 991,
                     "endColumn": 12,
-                    "endOffset": 78155
+                    "endOffset": 78061
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3622,12 +3628,12 @@
             },
             {
                 "to": {
-                    "startLine": 994,
+                    "startLine": 992,
                     "startColumn": 4,
-                    "startOffset": 78160,
-                    "endLine": 996,
+                    "startOffset": 78066,
+                    "endLine": 994,
                     "endColumn": 12,
-                    "endOffset": 78299
+                    "endOffset": 78218
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3635,12 +3641,12 @@
             },
             {
                 "to": {
-                    "startLine": 997,
+                    "startLine": 995,
                     "startColumn": 4,
-                    "startOffset": 78304,
-                    "endLine": 1001,
+                    "startOffset": 78223,
+                    "endLine": 997,
                     "endColumn": 12,
-                    "endOffset": 78619
+                    "endOffset": 78362
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3648,12 +3654,12 @@
             },
             {
                 "to": {
-                    "startLine": 1002,
+                    "startLine": 998,
                     "startColumn": 4,
-                    "startOffset": 78624,
-                    "endLine": 1005,
+                    "startOffset": 78367,
+                    "endLine": 1002,
                     "endColumn": 12,
-                    "endOffset": 78875
+                    "endOffset": 78682
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3661,12 +3667,12 @@
             },
             {
                 "to": {
-                    "startLine": 1006,
+                    "startLine": 1003,
                     "startColumn": 4,
-                    "startOffset": 78880,
-                    "endLine": 1009,
+                    "startOffset": 78687,
+                    "endLine": 1006,
                     "endColumn": 12,
-                    "endOffset": 79045
+                    "endOffset": 78938
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3674,12 +3680,12 @@
             },
             {
                 "to": {
-                    "startLine": 1010,
+                    "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 79050,
-                    "endLine": 1012,
+                    "startOffset": 78943,
+                    "endLine": 1010,
                     "endColumn": 12,
-                    "endOffset": 79186
+                    "endOffset": 79108
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3687,11 +3693,12 @@
             },
             {
                 "to": {
-                    "startLine": 1013,
+                    "startLine": 1011,
                     "startColumn": 4,
-                    "startOffset": 79191,
-                    "endColumn": 63,
-                    "endOffset": 79250
+                    "startOffset": 79113,
+                    "endLine": 1013,
+                    "endColumn": 12,
+                    "endOffset": 79249
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3701,10 +3708,9 @@
                 "to": {
                     "startLine": 1014,
                     "startColumn": 4,
-                    "startOffset": 79255,
-                    "endLine": 1017,
-                    "endColumn": 12,
-                    "endOffset": 79532
+                    "startOffset": 79254,
+                    "endColumn": 63,
+                    "endOffset": 79313
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3712,12 +3718,12 @@
             },
             {
                 "to": {
-                    "startLine": 1018,
+                    "startLine": 1015,
                     "startColumn": 4,
-                    "startOffset": 79537,
-                    "endLine": 1021,
+                    "startOffset": 79318,
+                    "endLine": 1018,
                     "endColumn": 12,
-                    "endOffset": 79818
+                    "endOffset": 79595
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3725,12 +3731,12 @@
             },
             {
                 "to": {
-                    "startLine": 1022,
+                    "startLine": 1019,
                     "startColumn": 4,
-                    "startOffset": 79823,
-                    "endLine": 1031,
+                    "startOffset": 79600,
+                    "endLine": 1022,
                     "endColumn": 12,
-                    "endOffset": 80494
+                    "endOffset": 79881
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3738,12 +3744,12 @@
             },
             {
                 "to": {
-                    "startLine": 1032,
+                    "startLine": 1023,
                     "startColumn": 4,
-                    "startOffset": 80499,
-                    "endLine": 1036,
+                    "startOffset": 79886,
+                    "endLine": 1032,
                     "endColumn": 12,
-                    "endOffset": 80758
+                    "endOffset": 80557
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3751,12 +3757,12 @@
             },
             {
                 "to": {
-                    "startLine": 1037,
+                    "startLine": 1033,
                     "startColumn": 4,
-                    "startOffset": 80763,
-                    "endLine": 1043,
+                    "startOffset": 80562,
+                    "endLine": 1037,
                     "endColumn": 12,
-                    "endOffset": 81096
+                    "endOffset": 80821
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3764,12 +3770,12 @@
             },
             {
                 "to": {
-                    "startLine": 1044,
+                    "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 81101,
-                    "endLine": 1049,
+                    "startOffset": 80826,
+                    "endLine": 1044,
                     "endColumn": 12,
-                    "endOffset": 81449
+                    "endOffset": 81159
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3777,11 +3783,12 @@
             },
             {
                 "to": {
-                    "startLine": 1050,
+                    "startLine": 1045,
                     "startColumn": 4,
-                    "startOffset": 81454,
-                    "endColumn": 93,
-                    "endOffset": 81543
+                    "startOffset": 81164,
+                    "endLine": 1050,
+                    "endColumn": 12,
+                    "endOffset": 81512
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3791,10 +3798,9 @@
                 "to": {
                     "startLine": 1051,
                     "startColumn": 4,
-                    "startOffset": 81548,
-                    "endLine": 1053,
-                    "endColumn": 12,
-                    "endOffset": 81729
+                    "startOffset": 81517,
+                    "endColumn": 93,
+                    "endOffset": 81606
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3802,12 +3808,12 @@
             },
             {
                 "to": {
-                    "startLine": 1054,
+                    "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 81734,
-                    "endLine": 1057,
+                    "startOffset": 81611,
+                    "endLine": 1054,
                     "endColumn": 12,
-                    "endOffset": 82035
+                    "endOffset": 81792
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3815,12 +3821,12 @@
             },
             {
                 "to": {
-                    "startLine": 1058,
+                    "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 82040,
-                    "endLine": 1062,
+                    "startOffset": 81797,
+                    "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 82297
+                    "endOffset": 82098
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3828,12 +3834,12 @@
             },
             {
                 "to": {
-                    "startLine": 1063,
+                    "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 82302,
-                    "endLine": 1064,
+                    "startOffset": 82103,
+                    "endLine": 1063,
                     "endColumn": 12,
-                    "endOffset": 82422
+                    "endOffset": 82360
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3841,12 +3847,12 @@
             },
             {
                 "to": {
-                    "startLine": 1065,
+                    "startLine": 1064,
                     "startColumn": 4,
-                    "startOffset": 82427,
-                    "endLine": 1066,
+                    "startOffset": 82365,
+                    "endLine": 1065,
                     "endColumn": 12,
-                    "endOffset": 82549
+                    "endOffset": 82485
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3854,12 +3860,12 @@
             },
             {
                 "to": {
-                    "startLine": 1067,
+                    "startLine": 1066,
                     "startColumn": 4,
-                    "startOffset": 82554,
-                    "endLine": 1069,
+                    "startOffset": 82490,
+                    "endLine": 1067,
                     "endColumn": 12,
-                    "endOffset": 82788
+                    "endOffset": 82612
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3867,12 +3873,12 @@
             },
             {
                 "to": {
-                    "startLine": 1070,
+                    "startLine": 1068,
                     "startColumn": 4,
-                    "startOffset": 82793,
-                    "endLine": 1072,
+                    "startOffset": 82617,
+                    "endLine": 1070,
                     "endColumn": 12,
-                    "endOffset": 82999
+                    "endOffset": 82851
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3880,12 +3886,12 @@
             },
             {
                 "to": {
-                    "startLine": 1073,
+                    "startLine": 1071,
                     "startColumn": 4,
-                    "startOffset": 83004,
-                    "endLine": 1074,
+                    "startOffset": 82856,
+                    "endLine": 1073,
                     "endColumn": 12,
-                    "endOffset": 83118
+                    "endOffset": 83062
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3893,12 +3899,12 @@
             },
             {
                 "to": {
-                    "startLine": 1075,
+                    "startLine": 1074,
                     "startColumn": 4,
-                    "startOffset": 83123,
-                    "endLine": 1078,
+                    "startOffset": 83067,
+                    "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 83311
+                    "endOffset": 83181
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3906,12 +3912,12 @@
             },
             {
                 "to": {
-                    "startLine": 1079,
+                    "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 83316,
-                    "endLine": 1085,
+                    "startOffset": 83186,
+                    "endLine": 1079,
                     "endColumn": 12,
-                    "endOffset": 83766
+                    "endOffset": 83374
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3919,12 +3925,12 @@
             },
             {
                 "to": {
-                    "startLine": 1086,
+                    "startLine": 1080,
                     "startColumn": 4,
-                    "startOffset": 83771,
-                    "endLine": 1088,
+                    "startOffset": 83379,
+                    "endLine": 1086,
                     "endColumn": 12,
-                    "endOffset": 83947
+                    "endOffset": 83829
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3932,12 +3938,12 @@
             },
             {
                 "to": {
-                    "startLine": 1089,
+                    "startLine": 1087,
                     "startColumn": 4,
-                    "startOffset": 83952,
-                    "endLine": 1091,
+                    "startOffset": 83834,
+                    "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 84069
+                    "endOffset": 84010
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3945,12 +3951,12 @@
             },
             {
                 "to": {
-                    "startLine": 1092,
+                    "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 84074,
-                    "endLine": 1095,
+                    "startOffset": 84015,
+                    "endLine": 1092,
                     "endColumn": 12,
-                    "endOffset": 84328
+                    "endOffset": 84132
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3958,12 +3964,12 @@
             },
             {
                 "to": {
-                    "startLine": 1096,
+                    "startLine": 1093,
                     "startColumn": 4,
-                    "startOffset": 84333,
-                    "endLine": 1097,
+                    "startOffset": 84137,
+                    "endLine": 1096,
                     "endColumn": 12,
-                    "endOffset": 84441
+                    "endOffset": 84391
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3971,12 +3977,12 @@
             },
             {
                 "to": {
-                    "startLine": 1098,
+                    "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 84446,
-                    "endLine": 1101,
+                    "startOffset": 84396,
+                    "endLine": 1098,
                     "endColumn": 12,
-                    "endOffset": 84628
+                    "endOffset": 84504
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3984,12 +3990,12 @@
             },
             {
                 "to": {
-                    "startLine": 1102,
+                    "startLine": 1099,
                     "startColumn": 4,
-                    "startOffset": 84633,
-                    "endLine": 1103,
+                    "startOffset": 84509,
+                    "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 84730
+                    "endOffset": 84691
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -3997,12 +4003,12 @@
             },
             {
                 "to": {
-                    "startLine": 1104,
+                    "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 84735,
-                    "endLine": 1109,
+                    "startOffset": 84696,
+                    "endLine": 1104,
                     "endColumn": 12,
-                    "endOffset": 85174
+                    "endOffset": 84793
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4010,12 +4016,12 @@
             },
             {
                 "to": {
-                    "startLine": 1110,
+                    "startLine": 1105,
                     "startColumn": 4,
-                    "startOffset": 85179,
-                    "endLine": 1111,
+                    "startOffset": 84798,
+                    "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 85298
+                    "endOffset": 85237
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4023,12 +4029,12 @@
             },
             {
                 "to": {
-                    "startLine": 1112,
+                    "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 85303,
-                    "endLine": 1115,
+                    "startOffset": 85242,
+                    "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 85583
+                    "endOffset": 85361
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4036,12 +4042,12 @@
             },
             {
                 "to": {
-                    "startLine": 1116,
+                    "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 85588,
-                    "endLine": 1127,
+                    "startOffset": 85366,
+                    "endLine": 1116,
                     "endColumn": 12,
-                    "endOffset": 86470
+                    "endOffset": 85646
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4049,12 +4055,12 @@
             },
             {
                 "to": {
-                    "startLine": 1128,
+                    "startLine": 1117,
                     "startColumn": 4,
-                    "startOffset": 86475,
-                    "endLine": 1133,
+                    "startOffset": 85651,
+                    "endLine": 1128,
                     "endColumn": 12,
-                    "endOffset": 86764
+                    "endOffset": 86533
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4062,12 +4068,12 @@
             },
             {
                 "to": {
-                    "startLine": 1134,
+                    "startLine": 1129,
                     "startColumn": 4,
-                    "startOffset": 86769,
-                    "endLine": 1142,
+                    "startOffset": 86538,
+                    "endLine": 1134,
                     "endColumn": 12,
-                    "endOffset": 87334
+                    "endOffset": 86827
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4075,12 +4081,12 @@
             },
             {
                 "to": {
-                    "startLine": 1143,
+                    "startLine": 1135,
                     "startColumn": 4,
-                    "startOffset": 87339,
-                    "endLine": 1153,
+                    "startOffset": 86832,
+                    "endLine": 1143,
                     "endColumn": 12,
-                    "endOffset": 88066
+                    "endOffset": 87397
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4088,12 +4094,12 @@
             },
             {
                 "to": {
-                    "startLine": 1154,
+                    "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 88071,
-                    "endLine": 1156,
+                    "startOffset": 87402,
+                    "endLine": 1154,
                     "endColumn": 12,
-                    "endOffset": 88238
+                    "endOffset": 88129
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4101,12 +4107,12 @@
             },
             {
                 "to": {
-                    "startLine": 1157,
+                    "startLine": 1155,
                     "startColumn": 4,
-                    "startOffset": 88243,
-                    "endLine": 1161,
+                    "startOffset": 88134,
+                    "endLine": 1157,
                     "endColumn": 12,
-                    "endOffset": 88574
+                    "endOffset": 88301
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4114,12 +4120,12 @@
             },
             {
                 "to": {
-                    "startLine": 1162,
+                    "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 88579,
-                    "endLine": 1173,
+                    "startOffset": 88306,
+                    "endLine": 1162,
                     "endColumn": 12,
-                    "endOffset": 89441
+                    "endOffset": 88637
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4127,12 +4133,12 @@
             },
             {
                 "to": {
-                    "startLine": 1174,
+                    "startLine": 1163,
                     "startColumn": 4,
-                    "startOffset": 89446,
-                    "endLine": 1178,
+                    "startOffset": 88642,
+                    "endLine": 1174,
                     "endColumn": 12,
-                    "endOffset": 89719
+                    "endOffset": 89504
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4140,12 +4146,12 @@
             },
             {
                 "to": {
-                    "startLine": 1179,
+                    "startLine": 1175,
                     "startColumn": 4,
-                    "startOffset": 89724,
-                    "endLine": 1216,
+                    "startOffset": 89509,
+                    "endLine": 1179,
                     "endColumn": 12,
-                    "endOffset": 92581
+                    "endOffset": 89782
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4153,12 +4159,12 @@
             },
             {
                 "to": {
-                    "startLine": 1217,
+                    "startLine": 1180,
                     "startColumn": 4,
-                    "startOffset": 92586,
-                    "endLine": 1255,
+                    "startOffset": 89787,
+                    "endLine": 1217,
                     "endColumn": 12,
-                    "endOffset": 95583
+                    "endOffset": 92644
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4166,11 +4172,12 @@
             },
             {
                 "to": {
-                    "startLine": 1256,
+                    "startLine": 1218,
                     "startColumn": 4,
-                    "startOffset": 95588,
-                    "endColumn": 61,
-                    "endOffset": 95645
+                    "startOffset": 92649,
+                    "endLine": 1256,
+                    "endColumn": 12,
+                    "endOffset": 95646
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4180,10 +4187,9 @@
                 "to": {
                     "startLine": 1257,
                     "startColumn": 4,
-                    "startOffset": 95650,
-                    "endLine": 1266,
-                    "endColumn": 12,
-                    "endOffset": 96275
+                    "startOffset": 95651,
+                    "endColumn": 61,
+                    "endOffset": 95708
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4191,12 +4197,12 @@
             },
             {
                 "to": {
-                    "startLine": 1267,
+                    "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 96280,
-                    "endLine": 1275,
+                    "startOffset": 95713,
+                    "endLine": 1267,
                     "endColumn": 12,
-                    "endOffset": 96889
+                    "endOffset": 96338
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4204,11 +4210,12 @@
             },
             {
                 "to": {
-                    "startLine": 1276,
+                    "startLine": 1268,
                     "startColumn": 4,
-                    "startOffset": 96894,
-                    "endColumn": 85,
-                    "endOffset": 96975
+                    "startOffset": 96343,
+                    "endLine": 1276,
+                    "endColumn": 12,
+                    "endOffset": 96952
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4218,10 +4225,9 @@
                 "to": {
                     "startLine": 1277,
                     "startColumn": 4,
-                    "startOffset": 96980,
-                    "endLine": 1278,
-                    "endColumn": 12,
-                    "endOffset": 97088
+                    "startOffset": 96957,
+                    "endColumn": 85,
+                    "endOffset": 97038
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4229,12 +4235,12 @@
             },
             {
                 "to": {
-                    "startLine": 1279,
+                    "startLine": 1278,
                     "startColumn": 4,
-                    "startOffset": 97093,
-                    "endLine": 1282,
+                    "startOffset": 97043,
+                    "endLine": 1279,
                     "endColumn": 12,
-                    "endOffset": 97317
+                    "endOffset": 97151
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4242,12 +4248,12 @@
             },
             {
                 "to": {
-                    "startLine": 1283,
+                    "startLine": 1280,
                     "startColumn": 4,
-                    "startOffset": 97322,
-                    "endLine": 1285,
+                    "startOffset": 97156,
+                    "endLine": 1283,
                     "endColumn": 12,
-                    "endOffset": 97477
+                    "endOffset": 97380
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4255,12 +4261,12 @@
             },
             {
                 "to": {
-                    "startLine": 1286,
+                    "startLine": 1284,
                     "startColumn": 4,
-                    "startOffset": 97482,
-                    "endLine": 1288,
+                    "startOffset": 97385,
+                    "endLine": 1286,
                     "endColumn": 12,
-                    "endOffset": 97629
+                    "endOffset": 97540
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4268,12 +4274,12 @@
             },
             {
                 "to": {
-                    "startLine": 1289,
+                    "startLine": 1287,
                     "startColumn": 4,
-                    "startOffset": 97634,
-                    "endLine": 1291,
+                    "startOffset": 97545,
+                    "endLine": 1289,
                     "endColumn": 12,
-                    "endOffset": 97800
+                    "endOffset": 97692
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4281,12 +4287,12 @@
             },
             {
                 "to": {
-                    "startLine": 1292,
+                    "startLine": 1290,
                     "startColumn": 4,
-                    "startOffset": 97805,
-                    "endLine": 1294,
+                    "startOffset": 97697,
+                    "endLine": 1292,
                     "endColumn": 12,
-                    "endOffset": 97967
+                    "endOffset": 97863
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4294,12 +4300,12 @@
             },
             {
                 "to": {
-                    "startLine": 1295,
+                    "startLine": 1293,
                     "startColumn": 4,
-                    "startOffset": 97972,
-                    "endLine": 1298,
+                    "startOffset": 97868,
+                    "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 98210
+                    "endOffset": 98030
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4307,12 +4313,12 @@
             },
             {
                 "to": {
-                    "startLine": 1299,
+                    "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 98215,
-                    "endLine": 1301,
+                    "startOffset": 98035,
+                    "endLine": 1299,
                     "endColumn": 12,
-                    "endOffset": 98380
+                    "endOffset": 98273
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4320,12 +4326,12 @@
             },
             {
                 "to": {
-                    "startLine": 1302,
+                    "startLine": 1300,
                     "startColumn": 4,
-                    "startOffset": 98385,
-                    "endLine": 1304,
+                    "startOffset": 98278,
+                    "endLine": 1302,
                     "endColumn": 12,
-                    "endOffset": 98553
+                    "endOffset": 98443
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4333,12 +4339,12 @@
             },
             {
                 "to": {
-                    "startLine": 1305,
+                    "startLine": 1303,
                     "startColumn": 4,
-                    "startOffset": 98558,
-                    "endLine": 1307,
+                    "startOffset": 98448,
+                    "endLine": 1305,
                     "endColumn": 12,
-                    "endOffset": 98724
+                    "endOffset": 98616
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4346,12 +4352,12 @@
             },
             {
                 "to": {
-                    "startLine": 1308,
+                    "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 98729,
-                    "endLine": 1311,
+                    "startOffset": 98621,
+                    "endLine": 1308,
                     "endColumn": 12,
-                    "endOffset": 98998
+                    "endOffset": 98787
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4359,12 +4365,12 @@
             },
             {
                 "to": {
-                    "startLine": 1312,
+                    "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 99003,
-                    "endLine": 1314,
+                    "startOffset": 98792,
+                    "endLine": 1312,
                     "endColumn": 12,
-                    "endOffset": 99197
+                    "endOffset": 99061
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4372,12 +4378,12 @@
             },
             {
                 "to": {
-                    "startLine": 1315,
+                    "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 99202,
-                    "endLine": 1318,
+                    "startOffset": 99066,
+                    "endLine": 1315,
                     "endColumn": 12,
-                    "endOffset": 99402
+                    "endOffset": 99260
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4385,12 +4391,12 @@
             },
             {
                 "to": {
-                    "startLine": 1319,
+                    "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 99407,
-                    "endLine": 1322,
+                    "startOffset": 99265,
+                    "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 99732
+                    "endOffset": 99465
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4398,11 +4404,12 @@
             },
             {
                 "to": {
-                    "startLine": 1323,
+                    "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 99737,
-                    "endColumn": 83,
-                    "endOffset": 99816
+                    "startOffset": 99470,
+                    "endLine": 1323,
+                    "endColumn": 12,
+                    "endOffset": 99795
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4412,9 +4419,9 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 99821,
-                    "endColumn": 95,
-                    "endOffset": 99912
+                    "startOffset": 99800,
+                    "endColumn": 83,
+                    "endOffset": 99879
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4424,9 +4431,9 @@
                 "to": {
                     "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 99917,
+                    "startOffset": 99884,
                     "endColumn": 95,
-                    "endOffset": 100008
+                    "endOffset": 99975
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4436,9 +4443,9 @@
                 "to": {
                     "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 100013,
-                    "endColumn": 97,
-                    "endOffset": 100106
+                    "startOffset": 99980,
+                    "endColumn": 95,
+                    "endOffset": 100071
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4448,9 +4455,9 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 100111,
-                    "endColumn": 99,
-                    "endOffset": 100206
+                    "startOffset": 100076,
+                    "endColumn": 97,
+                    "endOffset": 100169
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4460,9 +4467,9 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 100211,
-                    "endColumn": 101,
-                    "endOffset": 100308
+                    "startOffset": 100174,
+                    "endColumn": 99,
+                    "endOffset": 100269
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4472,9 +4479,9 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 100313,
+                    "startOffset": 100274,
                     "endColumn": 101,
-                    "endOffset": 100410
+                    "endOffset": 100371
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4484,9 +4491,9 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 100415,
+                    "startOffset": 100376,
                     "endColumn": 101,
-                    "endOffset": 100512
+                    "endOffset": 100473
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4496,9 +4503,9 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 100517,
+                    "startOffset": 100478,
                     "endColumn": 101,
-                    "endOffset": 100614
+                    "endOffset": 100575
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4508,9 +4515,9 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 100619,
+                    "startOffset": 100580,
                     "endColumn": 101,
-                    "endOffset": 100716
+                    "endOffset": 100677
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4520,9 +4527,9 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 100721,
-                    "endColumn": 99,
-                    "endOffset": 100816
+                    "startOffset": 100682,
+                    "endColumn": 101,
+                    "endOffset": 100779
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4532,9 +4539,9 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 100821,
-                    "endColumn": 95,
-                    "endOffset": 100912
+                    "startOffset": 100784,
+                    "endColumn": 99,
+                    "endOffset": 100879
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4544,9 +4551,9 @@
                 "to": {
                     "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 100917,
-                    "endColumn": 111,
-                    "endOffset": 101024
+                    "startOffset": 100884,
+                    "endColumn": 95,
+                    "endOffset": 100975
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4556,9 +4563,9 @@
                 "to": {
                     "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 101029,
-                    "endColumn": 128,
-                    "endOffset": 101153
+                    "startOffset": 100980,
+                    "endColumn": 111,
+                    "endOffset": 101087
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4568,9 +4575,9 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 101158,
-                    "endColumn": 122,
-                    "endOffset": 101276
+                    "startOffset": 101092,
+                    "endColumn": 128,
+                    "endOffset": 101216
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4580,10 +4587,9 @@
                 "to": {
                     "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 101281,
-                    "endLine": 1339,
-                    "endColumn": 12,
-                    "endOffset": 101430
+                    "startOffset": 101221,
+                    "endColumn": 122,
+                    "endOffset": 101339
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4591,12 +4597,12 @@
             },
             {
                 "to": {
-                    "startLine": 1340,
+                    "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101435,
-                    "endLine": 1341,
+                    "startOffset": 101344,
+                    "endLine": 1340,
                     "endColumn": 12,
-                    "endOffset": 101584
+                    "endOffset": 101493
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4604,11 +4610,12 @@
             },
             {
                 "to": {
-                    "startLine": 1342,
+                    "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 101589,
-                    "endColumn": 97,
-                    "endOffset": 101682
+                    "startOffset": 101498,
+                    "endLine": 1342,
+                    "endColumn": 12,
+                    "endOffset": 101647
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4618,9 +4625,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 101687,
-                    "endColumn": 113,
-                    "endOffset": 101796
+                    "startOffset": 101652,
+                    "endColumn": 97,
+                    "endOffset": 101745
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4630,9 +4637,9 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 101801,
-                    "endColumn": 93,
-                    "endOffset": 101890
+                    "startOffset": 101750,
+                    "endColumn": 113,
+                    "endOffset": 101859
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4642,10 +4649,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 101895,
-                    "endLine": 1346,
-                    "endColumn": 12,
-                    "endOffset": 102030
+                    "startOffset": 101864,
+                    "endColumn": 93,
+                    "endOffset": 101953
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4653,12 +4659,12 @@
             },
             {
                 "to": {
-                    "startLine": 1347,
+                    "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 102035,
-                    "endLine": 1348,
+                    "startOffset": 101958,
+                    "endLine": 1347,
                     "endColumn": 12,
-                    "endOffset": 102164
+                    "endOffset": 102093
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4666,11 +4672,12 @@
             },
             {
                 "to": {
-                    "startLine": 1349,
+                    "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 102169,
-                    "endColumn": 95,
-                    "endOffset": 102260
+                    "startOffset": 102098,
+                    "endLine": 1349,
+                    "endColumn": 12,
+                    "endOffset": 102227
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4680,9 +4687,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102265,
-                    "endColumn": 111,
-                    "endOffset": 102372
+                    "startOffset": 102232,
+                    "endColumn": 95,
+                    "endOffset": 102323
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4692,9 +4699,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 102377,
-                    "endColumn": 99,
-                    "endOffset": 102472
+                    "startOffset": 102328,
+                    "endColumn": 111,
+                    "endOffset": 102435
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4704,9 +4711,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102477,
-                    "endColumn": 115,
-                    "endOffset": 102588
+                    "startOffset": 102440,
+                    "endColumn": 99,
+                    "endOffset": 102535
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4716,9 +4723,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 102593,
-                    "endColumn": 95,
-                    "endOffset": 102684
+                    "startOffset": 102540,
+                    "endColumn": 115,
+                    "endOffset": 102651
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4728,9 +4735,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 102689,
-                    "endColumn": 111,
-                    "endOffset": 102796
+                    "startOffset": 102656,
+                    "endColumn": 95,
+                    "endOffset": 102747
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4740,10 +4747,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 102801,
-                    "endLine": 1356,
-                    "endColumn": 12,
-                    "endOffset": 102936
+                    "startOffset": 102752,
+                    "endColumn": 111,
+                    "endOffset": 102859
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4751,11 +4757,12 @@
             },
             {
                 "to": {
-                    "startLine": 1357,
+                    "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 102941,
-                    "endColumn": 135,
-                    "endOffset": 103072
+                    "startOffset": 102864,
+                    "endLine": 1357,
+                    "endColumn": 12,
+                    "endOffset": 102999
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4765,10 +4772,9 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103077,
-                    "endLine": 1359,
-                    "endColumn": 12,
-                    "endOffset": 103236
+                    "startOffset": 103004,
+                    "endColumn": 135,
+                    "endOffset": 103135
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4776,11 +4782,12 @@
             },
             {
                 "to": {
-                    "startLine": 1360,
+                    "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 103241,
-                    "endColumn": 129,
-                    "endOffset": 103366
+                    "startOffset": 103140,
+                    "endLine": 1360,
+                    "endColumn": 12,
+                    "endOffset": 103299
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4790,10 +4797,9 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 103371,
-                    "endLine": 1362,
-                    "endColumn": 12,
-                    "endOffset": 103524
+                    "startOffset": 103304,
+                    "endColumn": 129,
+                    "endOffset": 103429
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4801,12 +4807,12 @@
             },
             {
                 "to": {
-                    "startLine": 1363,
+                    "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 103529,
-                    "endLine": 1364,
+                    "startOffset": 103434,
+                    "endLine": 1363,
                     "endColumn": 12,
-                    "endOffset": 103674
+                    "endOffset": 103587
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4814,11 +4820,12 @@
             },
             {
                 "to": {
-                    "startLine": 1365,
+                    "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 103679,
-                    "endColumn": 140,
-                    "endOffset": 103815
+                    "startOffset": 103592,
+                    "endLine": 1365,
+                    "endColumn": 12,
+                    "endOffset": 103737
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4828,10 +4835,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 103820,
-                    "endLine": 1367,
-                    "endColumn": 12,
-                    "endOffset": 103959
+                    "startOffset": 103742,
+                    "endColumn": 140,
+                    "endOffset": 103878
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4839,11 +4845,12 @@
             },
             {
                 "to": {
-                    "startLine": 1368,
+                    "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 103964,
-                    "endColumn": 134,
-                    "endOffset": 104094
+                    "startOffset": 103883,
+                    "endLine": 1368,
+                    "endColumn": 12,
+                    "endOffset": 104022
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4853,9 +4860,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104099,
-                    "endColumn": 111,
-                    "endOffset": 104206
+                    "startOffset": 104027,
+                    "endColumn": 134,
+                    "endOffset": 104157
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4865,9 +4872,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104211,
-                    "endColumn": 127,
-                    "endOffset": 104334
+                    "startOffset": 104162,
+                    "endColumn": 111,
+                    "endOffset": 104269
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4877,10 +4884,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104339,
-                    "endLine": 1372,
-                    "endColumn": 12,
-                    "endOffset": 104470
+                    "startOffset": 104274,
+                    "endColumn": 127,
+                    "endOffset": 104397
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4888,12 +4894,12 @@
             },
             {
                 "to": {
-                    "startLine": 1373,
+                    "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104475,
-                    "endLine": 1374,
+                    "startOffset": 104402,
+                    "endLine": 1373,
                     "endColumn": 12,
-                    "endOffset": 104612
+                    "endOffset": 104533
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4901,12 +4907,12 @@
             },
             {
                 "to": {
-                    "startLine": 1375,
+                    "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 104617,
-                    "endLine": 1376,
+                    "startOffset": 104538,
+                    "endLine": 1375,
                     "endColumn": 12,
-                    "endOffset": 104754
+                    "endOffset": 104675
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4914,11 +4920,12 @@
             },
             {
                 "to": {
-                    "startLine": 1377,
+                    "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104759,
-                    "endColumn": 111,
-                    "endOffset": 104866
+                    "startOffset": 104680,
+                    "endLine": 1377,
+                    "endColumn": 12,
+                    "endOffset": 104817
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4928,9 +4935,9 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 104871,
-                    "endColumn": 139,
-                    "endOffset": 105006
+                    "startOffset": 104822,
+                    "endColumn": 111,
+                    "endOffset": 104929
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4940,9 +4947,9 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 105011,
-                    "endColumn": 67,
-                    "endOffset": 105074
+                    "startOffset": 104934,
+                    "endColumn": 139,
+                    "endOffset": 105069
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4952,9 +4959,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105079,
-                    "endColumn": 72,
-                    "endOffset": 105147
+                    "startOffset": 105074,
+                    "endColumn": 67,
+                    "endOffset": 105137
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4964,9 +4971,9 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105152,
-                    "endColumn": 73,
-                    "endOffset": 105221
+                    "startOffset": 105142,
+                    "endColumn": 72,
+                    "endOffset": 105210
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4976,9 +4983,9 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 105226,
-                    "endColumn": 72,
-                    "endOffset": 105294
+                    "startOffset": 105215,
+                    "endColumn": 73,
+                    "endOffset": 105284
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -4988,9 +4995,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105299,
-                    "endColumn": 73,
-                    "endOffset": 105368
+                    "startOffset": 105289,
+                    "endColumn": 72,
+                    "endOffset": 105357
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5000,10 +5007,9 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105373,
-                    "endLine": 1385,
-                    "endColumn": 12,
-                    "endOffset": 105514
+                    "startOffset": 105362,
+                    "endColumn": 73,
+                    "endOffset": 105431
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5011,12 +5017,12 @@
             },
             {
                 "to": {
-                    "startLine": 1386,
+                    "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105519,
-                    "endLine": 1387,
+                    "startOffset": 105436,
+                    "endLine": 1386,
                     "endColumn": 12,
-                    "endOffset": 105658
+                    "endOffset": 105577
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5024,12 +5030,12 @@
             },
             {
                 "to": {
-                    "startLine": 1388,
+                    "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 105663,
-                    "endLine": 1389,
+                    "startOffset": 105582,
+                    "endLine": 1388,
                     "endColumn": 12,
-                    "endOffset": 105796
+                    "endOffset": 105721
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5037,11 +5043,12 @@
             },
             {
                 "to": {
-                    "startLine": 1390,
+                    "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 105801,
-                    "endColumn": 65,
-                    "endOffset": 105862
+                    "startOffset": 105726,
+                    "endLine": 1390,
+                    "endColumn": 12,
+                    "endOffset": 105859
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5051,9 +5058,9 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 105867,
-                    "endColumn": 89,
-                    "endOffset": 105952
+                    "startOffset": 105864,
+                    "endColumn": 65,
+                    "endOffset": 105925
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5063,9 +5070,9 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 105957,
-                    "endColumn": 79,
-                    "endOffset": 106032
+                    "startOffset": 105930,
+                    "endColumn": 89,
+                    "endOffset": 106015
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5075,9 +5082,9 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106037,
-                    "endColumn": 91,
-                    "endOffset": 106124
+                    "startOffset": 106020,
+                    "endColumn": 79,
+                    "endOffset": 106095
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5087,9 +5094,9 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106129,
-                    "endColumn": 97,
-                    "endOffset": 106222
+                    "startOffset": 106100,
+                    "endColumn": 91,
+                    "endOffset": 106187
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5099,10 +5106,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106227,
-                    "endLine": 1396,
-                    "endColumn": 12,
-                    "endOffset": 106332
+                    "startOffset": 106192,
+                    "endColumn": 97,
+                    "endOffset": 106285
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5110,11 +5116,12 @@
             },
             {
                 "to": {
-                    "startLine": 1397,
+                    "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106337,
-                    "endColumn": 77,
-                    "endOffset": 106410
+                    "startOffset": 106290,
+                    "endLine": 1397,
+                    "endColumn": 12,
+                    "endOffset": 106395
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5124,9 +5131,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106415,
-                    "endColumn": 105,
-                    "endOffset": 106516
+                    "startOffset": 106400,
+                    "endColumn": 77,
+                    "endOffset": 106473
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5136,9 +5143,9 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 106521,
-                    "endColumn": 91,
-                    "endOffset": 106608
+                    "startOffset": 106478,
+                    "endColumn": 105,
+                    "endOffset": 106579
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5148,9 +5155,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 106613,
-                    "endColumn": 103,
-                    "endOffset": 106712
+                    "startOffset": 106584,
+                    "endColumn": 91,
+                    "endOffset": 106671
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5160,9 +5167,9 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 106717,
-                    "endColumn": 109,
-                    "endOffset": 106822
+                    "startOffset": 106676,
+                    "endColumn": 103,
+                    "endOffset": 106775
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5172,10 +5179,9 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 106827,
-                    "endLine": 1403,
-                    "endColumn": 12,
-                    "endOffset": 106944
+                    "startOffset": 106780,
+                    "endColumn": 109,
+                    "endOffset": 106885
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5183,12 +5189,12 @@
             },
             {
                 "to": {
-                    "startLine": 1404,
+                    "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 106949,
-                    "endLine": 1407,
+                    "startOffset": 106890,
+                    "endLine": 1404,
                     "endColumn": 12,
-                    "endOffset": 107107
+                    "endOffset": 107007
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5196,12 +5202,12 @@
             },
             {
                 "to": {
-                    "startLine": 1408,
+                    "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 107112,
-                    "endLine": 1411,
+                    "startOffset": 107012,
+                    "endLine": 1408,
                     "endColumn": 12,
-                    "endOffset": 107264
+                    "endOffset": 107170
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5209,11 +5215,12 @@
             },
             {
                 "to": {
-                    "startLine": 1412,
+                    "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107269,
-                    "endColumn": 79,
-                    "endOffset": 107344
+                    "startOffset": 107175,
+                    "endLine": 1412,
+                    "endColumn": 12,
+                    "endOffset": 107327
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5223,9 +5230,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 107349,
-                    "endColumn": 99,
-                    "endOffset": 107444
+                    "startOffset": 107332,
+                    "endColumn": 79,
+                    "endOffset": 107407
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5235,9 +5242,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 107449,
-                    "endColumn": 89,
-                    "endOffset": 107534
+                    "startOffset": 107412,
+                    "endColumn": 99,
+                    "endOffset": 107507
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5247,9 +5254,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 107539,
-                    "endColumn": 109,
-                    "endOffset": 107644
+                    "startOffset": 107512,
+                    "endColumn": 89,
+                    "endOffset": 107597
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5259,9 +5266,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 107649,
-                    "endColumn": 91,
-                    "endOffset": 107736
+                    "startOffset": 107602,
+                    "endColumn": 109,
+                    "endOffset": 107707
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5271,10 +5278,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 107741,
-                    "endLine": 1418,
-                    "endColumn": 12,
-                    "endOffset": 107836
+                    "startOffset": 107712,
+                    "endColumn": 91,
+                    "endOffset": 107799
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5282,12 +5288,12 @@
             },
             {
                 "to": {
-                    "startLine": 1419,
+                    "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 107841,
-                    "endLine": 1420,
+                    "startOffset": 107804,
+                    "endLine": 1419,
                     "endColumn": 12,
-                    "endOffset": 107948
+                    "endOffset": 107899
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5295,12 +5301,12 @@
             },
             {
                 "to": {
-                    "startLine": 1421,
+                    "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 107953,
-                    "endLine": 1422,
+                    "startOffset": 107904,
+                    "endLine": 1421,
                     "endColumn": 12,
-                    "endOffset": 108062
+                    "endOffset": 108011
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5308,12 +5314,12 @@
             },
             {
                 "to": {
-                    "startLine": 1423,
+                    "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108067,
-                    "endLine": 1424,
+                    "startOffset": 108016,
+                    "endLine": 1423,
                     "endColumn": 12,
-                    "endOffset": 108178
+                    "endOffset": 108125
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5321,12 +5327,12 @@
             },
             {
                 "to": {
-                    "startLine": 1425,
+                    "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 108183,
-                    "endLine": 1426,
+                    "startOffset": 108130,
+                    "endLine": 1425,
                     "endColumn": 12,
-                    "endOffset": 108294
+                    "endOffset": 108241
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5334,11 +5340,12 @@
             },
             {
                 "to": {
-                    "startLine": 1427,
+                    "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 108299,
-                    "endColumn": 93,
-                    "endOffset": 108388
+                    "startOffset": 108246,
+                    "endLine": 1427,
+                    "endColumn": 12,
+                    "endOffset": 108357
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5348,9 +5355,9 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 108393,
-                    "endColumn": 113,
-                    "endOffset": 108502
+                    "startOffset": 108362,
+                    "endColumn": 93,
+                    "endOffset": 108451
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5360,9 +5367,9 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 108507,
-                    "endColumn": 111,
-                    "endOffset": 108614
+                    "startOffset": 108456,
+                    "endColumn": 113,
+                    "endOffset": 108565
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5372,10 +5379,9 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 108619,
-                    "endLine": 1431,
-                    "endColumn": 12,
-                    "endOffset": 108716
+                    "startOffset": 108570,
+                    "endColumn": 111,
+                    "endOffset": 108677
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5383,12 +5389,12 @@
             },
             {
                 "to": {
-                    "startLine": 1432,
+                    "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 108721,
-                    "endLine": 1433,
+                    "startOffset": 108682,
+                    "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 108836
+                    "endOffset": 108779
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5396,12 +5402,12 @@
             },
             {
                 "to": {
-                    "startLine": 1434,
+                    "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 108841,
-                    "endLine": 1435,
+                    "startOffset": 108784,
+                    "endLine": 1434,
                     "endColumn": 12,
-                    "endOffset": 108958
+                    "endOffset": 108899
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5409,11 +5415,12 @@
             },
             {
                 "to": {
-                    "startLine": 1436,
+                    "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 108963,
-                    "endColumn": 81,
-                    "endOffset": 109040
+                    "startOffset": 108904,
+                    "endLine": 1436,
+                    "endColumn": 12,
+                    "endOffset": 109021
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5423,9 +5430,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 109045,
-                    "endColumn": 103,
-                    "endOffset": 109144
+                    "startOffset": 109026,
+                    "endColumn": 81,
+                    "endOffset": 109103
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5435,9 +5442,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 109149,
-                    "endColumn": 119,
-                    "endOffset": 109264
+                    "startOffset": 109108,
+                    "endColumn": 103,
+                    "endOffset": 109207
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5447,9 +5454,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109269,
-                    "endColumn": 125,
-                    "endOffset": 109390
+                    "startOffset": 109212,
+                    "endColumn": 119,
+                    "endOffset": 109327
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5459,9 +5466,9 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 109395,
-                    "endColumn": 97,
-                    "endOffset": 109488
+                    "startOffset": 109332,
+                    "endColumn": 125,
+                    "endOffset": 109453
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5471,9 +5478,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 109493,
-                    "endColumn": 93,
-                    "endOffset": 109582
+                    "startOffset": 109458,
+                    "endColumn": 97,
+                    "endOffset": 109551
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5483,9 +5490,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 109587,
-                    "endColumn": 87,
-                    "endOffset": 109670
+                    "startOffset": 109556,
+                    "endColumn": 93,
+                    "endOffset": 109645
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5495,9 +5502,9 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 109675,
-                    "endColumn": 111,
-                    "endOffset": 109782
+                    "startOffset": 109650,
+                    "endColumn": 87,
+                    "endOffset": 109733
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5507,9 +5514,9 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 109787,
-                    "endColumn": 115,
-                    "endOffset": 109898
+                    "startOffset": 109738,
+                    "endColumn": 111,
+                    "endOffset": 109845
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5519,9 +5526,9 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 109903,
-                    "endColumn": 121,
-                    "endOffset": 110020
+                    "startOffset": 109850,
+                    "endColumn": 115,
+                    "endOffset": 109961
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5531,9 +5538,9 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110025,
-                    "endColumn": 111,
-                    "endOffset": 110132
+                    "startOffset": 109966,
+                    "endColumn": 121,
+                    "endOffset": 110083
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5543,10 +5550,9 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110137,
-                    "endLine": 1449,
-                    "endColumn": 12,
-                    "endOffset": 110307
+                    "startOffset": 110088,
+                    "endColumn": 111,
+                    "endOffset": 110195
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5554,11 +5560,12 @@
             },
             {
                 "to": {
-                    "startLine": 1450,
+                    "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 110312,
-                    "endColumn": 115,
-                    "endOffset": 110423
+                    "startOffset": 110200,
+                    "endLine": 1450,
+                    "endColumn": 12,
+                    "endOffset": 110370
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5568,9 +5575,9 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 110428,
-                    "endColumn": 85,
-                    "endOffset": 110509
+                    "startOffset": 110375,
+                    "endColumn": 115,
+                    "endOffset": 110486
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5580,9 +5587,9 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 110514,
-                    "endColumn": 91,
-                    "endOffset": 110601
+                    "startOffset": 110491,
+                    "endColumn": 85,
+                    "endOffset": 110572
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5592,10 +5599,9 @@
                 "to": {
                     "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 110606,
-                    "endLine": 1454,
-                    "endColumn": 12,
-                    "endOffset": 110713
+                    "startOffset": 110577,
+                    "endColumn": 91,
+                    "endOffset": 110664
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5603,12 +5609,12 @@
             },
             {
                 "to": {
-                    "startLine": 1455,
+                    "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 110718,
-                    "endLine": 1456,
+                    "startOffset": 110669,
+                    "endLine": 1455,
                     "endColumn": 12,
-                    "endOffset": 110837
+                    "endOffset": 110776
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5616,11 +5622,12 @@
             },
             {
                 "to": {
-                    "startLine": 1457,
+                    "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 110842,
-                    "endColumn": 66,
-                    "endOffset": 110904
+                    "startOffset": 110781,
+                    "endLine": 1457,
+                    "endColumn": 12,
+                    "endOffset": 110900
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5630,10 +5637,9 @@
                 "to": {
                     "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 110909,
-                    "endLine": 1459,
-                    "endColumn": 12,
-                    "endOffset": 111030
+                    "startOffset": 110905,
+                    "endColumn": 66,
+                    "endOffset": 110967
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5641,11 +5647,12 @@
             },
             {
                 "to": {
-                    "startLine": 1460,
+                    "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 111035,
-                    "endColumn": 67,
-                    "endOffset": 111098
+                    "startOffset": 110972,
+                    "endLine": 1460,
+                    "endColumn": 12,
+                    "endOffset": 111093
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5655,10 +5662,9 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 111103,
-                    "endLine": 1462,
-                    "endColumn": 12,
-                    "endOffset": 111226
+                    "startOffset": 111098,
+                    "endColumn": 67,
+                    "endOffset": 111161
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5666,12 +5672,12 @@
             },
             {
                 "to": {
-                    "startLine": 1463,
+                    "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 111231,
-                    "endLine": 1464,
+                    "startOffset": 111166,
+                    "endLine": 1463,
                     "endColumn": 12,
-                    "endOffset": 111370
+                    "endOffset": 111289
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5679,12 +5685,12 @@
             },
             {
                 "to": {
-                    "startLine": 1465,
+                    "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111375,
-                    "endLine": 1466,
+                    "startOffset": 111294,
+                    "endLine": 1465,
                     "endColumn": 12,
-                    "endOffset": 111498
+                    "endOffset": 111433
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5692,11 +5698,12 @@
             },
             {
                 "to": {
-                    "startLine": 1467,
+                    "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 111503,
-                    "endColumn": 68,
-                    "endOffset": 111567
+                    "startOffset": 111438,
+                    "endLine": 1467,
+                    "endColumn": 12,
+                    "endOffset": 111561
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5706,9 +5713,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 111572,
-                    "endColumn": 94,
-                    "endOffset": 111662
+                    "startOffset": 111566,
+                    "endColumn": 68,
+                    "endOffset": 111630
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5718,9 +5725,9 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 111667,
-                    "endColumn": 114,
-                    "endOffset": 111777
+                    "startOffset": 111635,
+                    "endColumn": 94,
+                    "endOffset": 111725
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5730,9 +5737,9 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 111782,
-                    "endColumn": 112,
-                    "endOffset": 111890
+                    "startOffset": 111730,
+                    "endColumn": 114,
+                    "endOffset": 111840
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5742,9 +5749,9 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 111895,
-                    "endColumn": 98,
-                    "endOffset": 111989
+                    "startOffset": 111845,
+                    "endColumn": 112,
+                    "endOffset": 111953
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5754,9 +5761,9 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 111994,
-                    "endColumn": 108,
-                    "endOffset": 112098
+                    "startOffset": 111958,
+                    "endColumn": 98,
+                    "endOffset": 112052
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5766,9 +5773,9 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 112103,
-                    "endColumn": 110,
-                    "endOffset": 112209
+                    "startOffset": 112057,
+                    "endColumn": 108,
+                    "endOffset": 112161
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5778,9 +5785,9 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112214,
+                    "startOffset": 112166,
                     "endColumn": 110,
-                    "endOffset": 112320
+                    "endOffset": 112272
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5790,9 +5797,9 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 112325,
-                    "endColumn": 100,
-                    "endOffset": 112421
+                    "startOffset": 112277,
+                    "endColumn": 110,
+                    "endOffset": 112383
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5802,9 +5809,9 @@
                 "to": {
                     "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 112426,
-                    "endColumn": 104,
-                    "endOffset": 112526
+                    "startOffset": 112388,
+                    "endColumn": 100,
+                    "endOffset": 112484
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5814,10 +5821,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112531,
-                    "endLine": 1478,
-                    "endColumn": 12,
-                    "endOffset": 112638
+                    "startOffset": 112489,
+                    "endColumn": 104,
+                    "endOffset": 112589
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5825,12 +5831,12 @@
             },
             {
                 "to": {
-                    "startLine": 1479,
+                    "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 112643,
-                    "endLine": 1480,
+                    "startOffset": 112594,
+                    "endLine": 1479,
                     "endColumn": 12,
-                    "endOffset": 112768
+                    "endOffset": 112701
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5838,11 +5844,12 @@
             },
             {
                 "to": {
-                    "startLine": 1481,
+                    "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 112773,
-                    "endColumn": 90,
-                    "endOffset": 112859
+                    "startOffset": 112706,
+                    "endLine": 1481,
+                    "endColumn": 12,
+                    "endOffset": 112831
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5852,9 +5859,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 112864,
-                    "endColumn": 122,
-                    "endOffset": 112982
+                    "startOffset": 112836,
+                    "endColumn": 90,
+                    "endOffset": 112922
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5864,10 +5871,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 112987,
-                    "endLine": 1484,
-                    "endColumn": 12,
-                    "endOffset": 113094
+                    "startOffset": 112927,
+                    "endColumn": 122,
+                    "endOffset": 113045
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5875,11 +5881,12 @@
             },
             {
                 "to": {
-                    "startLine": 1485,
+                    "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 113099,
-                    "endColumn": 85,
-                    "endOffset": 113180
+                    "startOffset": 113050,
+                    "endLine": 1485,
+                    "endColumn": 12,
+                    "endOffset": 113157
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5889,9 +5896,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 113185,
-                    "endColumn": 103,
-                    "endOffset": 113284
+                    "startOffset": 113162,
+                    "endColumn": 85,
+                    "endOffset": 113243
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5901,10 +5908,9 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 113289,
-                    "endLine": 1488,
-                    "endColumn": 12,
-                    "endOffset": 113392
+                    "startOffset": 113248,
+                    "endColumn": 103,
+                    "endOffset": 113347
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5912,12 +5918,12 @@
             },
             {
                 "to": {
-                    "startLine": 1489,
+                    "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 113397,
-                    "endLine": 1490,
+                    "startOffset": 113352,
+                    "endLine": 1489,
                     "endColumn": 12,
-                    "endOffset": 113492
+                    "endOffset": 113455
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5925,12 +5931,12 @@
             },
             {
                 "to": {
-                    "startLine": 1491,
+                    "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 113497,
-                    "endLine": 1492,
+                    "startOffset": 113460,
+                    "endLine": 1491,
                     "endColumn": 12,
-                    "endOffset": 113610
+                    "endOffset": 113555
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5938,12 +5944,12 @@
             },
             {
                 "to": {
-                    "startLine": 1493,
+                    "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 113615,
-                    "endLine": 1494,
+                    "startOffset": 113560,
+                    "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 113714
+                    "endOffset": 113673
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5951,12 +5957,12 @@
             },
             {
                 "to": {
-                    "startLine": 1495,
+                    "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 113719,
-                    "endLine": 1496,
+                    "startOffset": 113678,
+                    "endLine": 1495,
                     "endColumn": 12,
-                    "endOffset": 113818
+                    "endOffset": 113777
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5964,12 +5970,12 @@
             },
             {
                 "to": {
-                    "startLine": 1497,
+                    "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 113823,
-                    "endLine": 1498,
+                    "startOffset": 113782,
+                    "endLine": 1497,
                     "endColumn": 12,
-                    "endOffset": 113944
+                    "endOffset": 113881
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5977,11 +5983,12 @@
             },
             {
                 "to": {
-                    "startLine": 1499,
+                    "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 113949,
-                    "endColumn": 87,
-                    "endOffset": 114032
+                    "startOffset": 113886,
+                    "endLine": 1499,
+                    "endColumn": 12,
+                    "endOffset": 114007
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -5991,9 +5998,9 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 114037,
-                    "endColumn": 89,
-                    "endOffset": 114122
+                    "startOffset": 114012,
+                    "endColumn": 87,
+                    "endOffset": 114095
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6003,9 +6010,9 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114127,
-                    "endColumn": 109,
-                    "endOffset": 114232
+                    "startOffset": 114100,
+                    "endColumn": 89,
+                    "endOffset": 114185
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6015,9 +6022,9 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 114237,
-                    "endColumn": 83,
-                    "endOffset": 114316
+                    "startOffset": 114190,
+                    "endColumn": 109,
+                    "endOffset": 114295
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6027,9 +6034,9 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 114321,
+                    "startOffset": 114300,
                     "endColumn": 83,
-                    "endOffset": 114400
+                    "endOffset": 114379
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6039,9 +6046,9 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 114405,
-                    "endColumn": 53,
-                    "endOffset": 114454
+                    "startOffset": 114384,
+                    "endColumn": 83,
+                    "endOffset": 114463
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6051,9 +6058,9 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 114459,
-                    "endColumn": 63,
-                    "endOffset": 114518
+                    "startOffset": 114468,
+                    "endColumn": 53,
+                    "endOffset": 114517
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6063,9 +6070,9 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 114523,
-                    "endColumn": 105,
-                    "endOffset": 114624
+                    "startOffset": 114522,
+                    "endColumn": 63,
+                    "endOffset": 114581
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6075,9 +6082,9 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 114629,
-                    "endColumn": 109,
-                    "endOffset": 114734
+                    "startOffset": 114586,
+                    "endColumn": 105,
+                    "endOffset": 114687
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6087,9 +6094,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 114739,
-                    "endColumn": 83,
-                    "endOffset": 114818
+                    "startOffset": 114692,
+                    "endColumn": 109,
+                    "endOffset": 114797
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
@@ -6099,9 +6106,21 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 114823,
+                    "startOffset": 114802,
+                    "endColumn": 83,
+                    "endOffset": 114881
+                },
+                "from": {
+                    "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1510,
+                    "startColumn": 4,
+                    "startOffset": 114886,
                     "endColumn": 119,
-                    "endOffset": 114938
+                    "endOffset": 115001
                 },
                 "from": {
                     "file": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml"

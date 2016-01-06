@@ -1638,7 +1638,6 @@ containing a value of this type.
         public static final int editskilloption=0x7f0c0089;
         public static final int emailidlogin=0x7f0c0060;
         public static final int emailidregister=0x7f0c007e;
-        public static final int emailidsettings=0x7f0c005a;
         public static final int end=0x7f0c0019;
         public static final int end_padder=0x7f0c0071;
         public static final int expand_activities_button=0x7f0c0025;
@@ -1663,7 +1662,7 @@ containing a value of this type.
         public static final int list_item_skill_name=0x7f0c0082;
         public static final int locationprofile=0x7f0c0075;
         public static final int locationregister=0x7f0c007f;
-        public static final int locationsettings=0x7f0c005b;
+        public static final int locationsettings=0x7f0c005a;
         public static final int login=0x7f0c0062;
         public static final int media_actions=0x7f0c0068;
         public static final int middle=0x7f0c001a;
@@ -1728,6 +1727,7 @@ containing a value of this type.
         public static final int title_template=0x7f0c002f;
         public static final int topPanel=0x7f0c002e;
         public static final int up=0x7f0c0008;
+        public static final int updateprofile=0x7f0c005b;
         public static final int useLogo=0x7f0c0012;
         public static final int viewpagercreateprofile=0x7f0c0051;
         public static final int warninglogin=0x7f0c0061;
@@ -1839,7 +1839,8 @@ containing a value of this type.
         public static final int setpicturedirection=0x7f060020;
         public static final int skillnamedefault=0x7f060021;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int yearofpracticedefault=0x7f060022;
+        public static final int updateprofilebutton=0x7f060022;
+        public static final int yearofpracticedefault=0x7f060023;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007d;
