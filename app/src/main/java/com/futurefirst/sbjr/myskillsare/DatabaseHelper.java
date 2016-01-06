@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -28,7 +29,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "("+ DatabaseContract.MemberTable.EMAILID+" varchar(30) PRIMARY KEY, "+
                 DatabaseContract.MemberTable.FIRSTNAME+" varchar(30) NOT NULL, "+
                 DatabaseContract.MemberTable.LASTNAME+" varchar(30) NOT NULL, "+
-                DatabaseContract.MemberTable.LOCATION+" varchar(30) NOT NULL);";
+                DatabaseContract.MemberTable.LOCATION+" varchar(30) NOT NULL, "+
+                DatabaseContract.MemberTable.PROFILEPIC+" blob);";
 
         final String CREATESKILLTABLE="CREATE TABLE IF NOT EXISTS "+ DatabaseContract.SkillTable.TABLENAME+
                 "("+ DatabaseContract.SkillTable.EMAILID+" varchar(30) NOT NULL,"+
@@ -81,21 +83,31 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
         //Log.d("CHECKINGTAG","cursor done with data");
         db.delete(DatabaseContract.TempTable.TABLENAME,null,null);
-        String delquerry = "DROP TABLE "+ DatabaseContract.TempTable.TABLENAME+";";
+        //String delquerry = "DROP TABLE "+ DatabaseContract.TempTable.TABLENAME+";";
         String delrowqery = "DELETE FROM "+ DatabaseContract.TempTable.TABLENAME+";";
-        db.rawQuery(delrowqery,null);
-        db.rawQuery(delquerry,null);
+        db.execSQL(delrowqery);
+        //db.execSQL(delquerry);
         db.close();
     }
 
 
-    public void dbInsertMember(String fname,String lname,String email,String loc){
+    public void dbInsertMember(String fname,String lname,String email,String loc,Bitmap image){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put(DatabaseContract.MemberTable.EMAILID,email);
         cv.put(DatabaseContract.MemberTable.FIRSTNAME,fname);
         cv.put(DatabaseContract.MemberTable.LASTNAME,lname);
         cv.put(DatabaseContract.MemberTable.LOCATION, loc);
+        if(image!=null) {
+            byte b[] = ImageConverterUtility.getByteFromImage(image);
+            Log.d("IMAGE THING","image present and the size of data being "+b.length);
+            cv.put(DatabaseContract.MemberTable.PROFILEPIC, b);
+        }else{
+            byte b[] ={};
+
+            Log.d("IMAGE THING","image not present and the size of data being "+b.length);
+            cv.put(DatabaseContract.MemberTable.PROFILEPIC, b);
+        }
         db.insert(DatabaseContract.MemberTable.TABLENAME, null, cv);
         db.close();
     }
@@ -134,6 +146,30 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.close();
 
         return  s;
+    }
+
+    public Bitmap getUserProfilePic(String emailid){
+        SQLiteDatabase db = this.getReadableDatabase();
+        String querry = "SELECT * FROM "+ DatabaseContract.MemberTable.TABLENAME+
+                " WHERE " +DatabaseContract.MemberTable.EMAILID+ " = \'"+emailid+"\';";
+        Cursor cursor = db.rawQuery(querry,null);
+        if(cursor.moveToFirst()){
+            try {
+                //Log.d("IMAGE THING","cursor has data");
+                byte[] im = cursor.getBlob(4);
+                //Log.d("IMAGE THING","the size of data being "+im.length);
+                if(im.length>0) {
+                    //Log.d("IMAGE THING", "return bitmap then ");
+                    Bitmap bitmap =  ImageConverterUtility.getImageFromByteArray(im);
+                    //Log.d("IMAGE THING", "image not empty and the size being " + bitmap.getWidth()+"x"+bitmap.getHeight());
+                    return bitmap;
+                }
+                else
+                    return null;
+            }
+            catch (Exception e){ return null;}
+        }
+        return null;
     }
 
 

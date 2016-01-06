@@ -33,6 +33,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -219,7 +220,6 @@
     <string name="donebutton">Done</string>
     <string name="emailiddefault">Email Id</string>
     <string name="firstnamedefault">First Name</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lastnamedefault">Last Name</string>
     <string name="locationdefault">Location</string>
     <string name="loginbutton">Login</string>
@@ -233,11 +233,8 @@
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Base.AppTheme">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -254,6 +251,12 @@
     <style name="Base.Animation.AppCompat.DropDownUp" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
         <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Base.DialogWindowTitle.AppCompat" parent="android:Widget">
         <item name="android:maxLines">1</item>

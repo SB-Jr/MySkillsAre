@@ -41,11 +41,12 @@ public class CreateSkillFragment extends Fragment {
     public final static String DESCRIPTIONEDIT="DESCRIPTIONEDIT";
     public final static String STARTYEAREDIT="STARTYEAREDI";
     public final static String STARTMONTHEDIT="STARTMONTHEDIT";
-    public final static String STARTDAYEDIT="STARTDAYEDIT";
+    //public final static String STARTDAYEDIT="STARTDAYEDIT";
 
     String category=null;
 
     public final int SKILLREQUEST = 100;
+    public final int SKILLEDITREQUEST = 101;
 
     private int fragmenttype;
 
@@ -62,7 +63,7 @@ public class CreateSkillFragment extends Fragment {
 
 
     public void addSkillToList(String s[]){
-        skillListArray.add(s);//45953
+        skillListArray.add(s);
         adapter.notifyDataSetChanged();
     }
 
@@ -114,7 +115,7 @@ public class CreateSkillFragment extends Fragment {
                     String s[] = skillListArray.get(position);
                     String skill = s[0];
                     intent.putExtra("Skill", skill);
-                    startActivity(intent);
+                    startActivityForResult(intent,SKILLEDITREQUEST);
                 }
             });
         }
@@ -131,36 +132,42 @@ public class CreateSkillFragment extends Fragment {
         });
 
 
-        if(fragmenttype==Profile.FRAGMENTTYPEPROFILE){
-            DatabaseHelper dbhelper = new DatabaseHelper(getContext());
-            SQLiteDatabase db = dbhelper.getWritableDatabase();
-            String querry = "SELECT * FROM "+ DatabaseContract.SkillTable.TABLENAME+
-                    " WHERE "+ DatabaseContract.SkillTable.CATEGORY+" = \'"+category+"\' AND "+
-                    DatabaseContract.SkillTable.EMAILID+" = \'"+Profile.Emailid+"\';";
-            Cursor cursor = db.rawQuery(querry, null);
-            if(cursor.moveToFirst()){
-                do{
-                    String skn = cursor.getString(1);
-                    String skd = cursor.getString(4);
-                    String s[] = {skn,skd};
-                    addSkillToList(s);
-                }while (cursor.moveToNext());
-            }
-            db.close();
-            if(skillListArray.size()>=3)
-                setButtonInvisible();
+        if(fragmenttype==Profile.FRAGMENTTYPEPROFILE) {
+            initSkillArray();
         }
-
 
         return v;
     }
+
+
+    public void initSkillArray(){
+        skillListArray.clear();
+        DatabaseHelper dbhelper = new DatabaseHelper(getContext());
+        SQLiteDatabase db = dbhelper.getWritableDatabase();
+        String querry = "SELECT * FROM "+ DatabaseContract.SkillTable.TABLENAME+
+                " WHERE "+ DatabaseContract.SkillTable.CATEGORY+" = \'"+category+"\' AND "+
+                DatabaseContract.SkillTable.EMAILID+" = \'"+Profile.Emailid+"\';";
+        Cursor cursor = db.rawQuery(querry, null);
+        if(cursor.moveToFirst()){
+            do{
+                String skn = cursor.getString(1);
+                String skd = cursor.getString(4);
+                String s[] = {skn,skd};
+                addSkillToList(s);
+            }while (cursor.moveToNext());
+        }
+        db.close();
+        if(skillListArray.size()>=3)
+            setButtonInvisible();
+    }
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==SKILLREQUEST){
             if(resultCode==Activity.RESULT_OK){
                 String skill = data.getStringExtra(SKILLNAMEEDIT);
-                String date = data.getStringExtra(STARTDAYEDIT)+"/"+data.getStringExtra(STARTMONTHEDIT)+"/"+data.getStringExtra(STARTYEAREDIT);
+                String date = data.getStringExtra(STARTMONTHEDIT)+"/"+data.getStringExtra(STARTYEAREDIT);
 
                 String s[]={skill,date};
 
@@ -177,6 +184,9 @@ public class CreateSkillFragment extends Fragment {
                     dbhelper.dbInsertSkill(Profile.Emailid);
                 }
             }
+        }
+        else if(requestCode==SKILLEDITREQUEST){
+            initSkillArray();
         }
     }
 }

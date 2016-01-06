@@ -6,7 +6,7 @@
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:minHeight="?android:attr/listPreferredItemHeight"
-    android:background="@android:color/darker_gray">
+    android:background="@color/colorPrimaryLight">
 
     <TextView
         android:id="@+id/list_item_skill_name"

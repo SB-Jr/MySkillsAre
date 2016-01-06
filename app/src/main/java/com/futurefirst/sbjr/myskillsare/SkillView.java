@@ -20,6 +20,7 @@ public class SkillView extends AppCompatActivity {
     private String yearOfStart;
 
     private final int REQUESTFOREDIT=200;
+    public static final int EDITED=201;
 
 
     public static final String SKILLNAMEFOREDIT="SkillNameForEdit";
@@ -67,7 +68,7 @@ public class SkillView extends AppCompatActivity {
                 " AND "+ DatabaseContract.SkillTable.SKILLNAME+" = \'"+skill+"\';";
         DatabaseHelper dbhelper = new DatabaseHelper(this);
         SQLiteDatabase db = dbhelper.getWritableDatabase();
-        db.rawQuery(querry,null);
+        db.execSQL(querry);
         db.close();
         finish();
     }
@@ -102,10 +103,10 @@ public class SkillView extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==REQUESTFOREDIT){
-            if(resultCode==RESULT_OK){
+            if(resultCode==EDITED){
                 String newSkill = data.getStringExtra(CreateSkillFragment.SKILLNAMEEDIT);
                 String newDescription = data.getStringExtra(CreateSkillFragment.DESCRIPTIONEDIT);
-                String newYearofstart = data.getStringExtra(CreateSkillFragment.STARTDAYEDIT)+"/"+data.getStringExtra(CreateSkillFragment.STARTMONTHEDIT)+"/"+data.getStringExtra(CreateSkillFragment.STARTYEAREDIT);
+                String newYearofstart = data.getStringExtra(CreateSkillFragment.STARTMONTHEDIT)+"/"+data.getStringExtra(CreateSkillFragment.STARTYEAREDIT);
 
                 String delquery = "DELETE FROM "+ DatabaseContract.SkillTable.TABLENAME+
                         " WHERE "+ DatabaseContract.SkillTable.EMAILID+" = \'"+Profile.Emailid+"\'"+
@@ -113,7 +114,7 @@ public class SkillView extends AppCompatActivity {
                         " AND "+ DatabaseContract.SkillTable.SKILLNAME+" = \'"+skill+"\';";
                 DatabaseHelper dbhelper = new DatabaseHelper(this);
                 SQLiteDatabase db = dbhelper.getWritableDatabase();
-                db.rawQuery(delquery,null);
+                db.execSQL(delquery);
                 db.close();
                 dbhelper.dbInsertTemp(newSkill, category, newYearofstart, newDescription);
                 dbhelper.dbInsertSkill(Profile.Emailid);

@@ -47,6 +47,7 @@ public class Login extends AppCompatActivity {
         emailid = sharedPreferences.getString(getString(R.string.emailiddefault),null);
         if(!(firstname==null||lastname==null||emailid==null)){
             Intent intent = new Intent(getApplicationContext(),Profile.class);
+            intent.putExtra(Register.EMAILIDKEY,emailid);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
         }
@@ -109,8 +110,14 @@ public class Login extends AppCompatActivity {
             if(cursor.moveToFirst()) {
                 warning.setText("Logging You In");
                 intent.putExtra(Register.EMAILIDKEY,emailid);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(getString(R.string.firstnamedefault), firstname);
+                editor.putString(getString(R.string.lastnamedefault), lastname);
+                editor.putString(getString(R.string.emailiddefault), emailid);
+                editor.commit();
                 db.close();
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
             else{

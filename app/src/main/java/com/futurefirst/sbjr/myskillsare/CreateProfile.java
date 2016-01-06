@@ -27,6 +27,8 @@ public class CreateProfile extends AppCompatActivity {
     CreateSkillFragment fragment[];
     ViewPager vp;
     ImageButton profilePic;
+    Bitmap profilepicbitmap = null;
+    boolean setpic = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +36,6 @@ public class CreateProfile extends AppCompatActivity {
         setContentView(R.layout.createprofile);
 
         profilePic = (ImageButton) findViewById(R.id.profilepic_createprofile);
-
-
         profilePic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +63,10 @@ public class CreateProfile extends AppCompatActivity {
         String location = backintent.getStringExtra(Register.LOCATIONKEY);
 
         DatabaseHelper dbhelper = new DatabaseHelper(this);
-        dbhelper.dbInsertMember(firstname,lastname,emailid,location);
+        if(setpic==false)
+            dbhelper.dbInsertMember(firstname,lastname,emailid,location,null);
+        else
+            dbhelper.dbInsertMember(firstname, lastname,emailid,location,profilepicbitmap);
         dbhelper.dbInsertSkill(emailid);
 
         Intent intent = new Intent(getApplicationContext(),Profile.class);
@@ -113,7 +116,10 @@ public class CreateProfile extends AppCompatActivity {
                 try {
                     InputStream inputStream = getContentResolver().openInputStream(uri);
                     Bitmap image = BitmapFactory.decodeStream(inputStream);
+                    image = Bitmap.createScaledBitmap(image,200,200,false);
                     profilePic.setImageBitmap(image);
+                    profilepicbitmap = image;
+                    setpic = true;
                 }
                 catch (Exception e){ }
             }

@@ -12,6 +12,7 @@ public class DatabaseContract {
         public static String FIRSTNAME="first_name";
         public static String LASTNAME="last_name";
         public static String LOCATION="location";
+        public static String PROFILEPIC="profile_pic";
     }
 
     public static final class SkillTable{
