@@ -64,6 +64,10 @@
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/search_actionbar.xml",
+        "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/src/main/res/layout/search_actionbar.xml"
+    },
+    {
         "merged": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/home/sbjr/Eclipse_workspace/android/MySkillsAre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
     },

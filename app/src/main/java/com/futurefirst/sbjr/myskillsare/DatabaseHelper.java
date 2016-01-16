@@ -7,7 +7,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by sbjr on 12/25/15.
@@ -79,8 +83,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 cv.put(DatabaseContract.SkillTable.STARTYEAR, startyear);
                 cv.put(DatabaseContract.SkillTable.EMAILID, email);
                 db.insert(DatabaseContract.SkillTable.TABLENAME, null, cv);
+                Log.d("Skill", "inserted into main table "+skillname);
             } while (cursor.moveToNext());
         }
+
         //Log.d("CHECKINGTAG","cursor done with data");
         db.delete(DatabaseContract.TempTable.TABLENAME,null,null);
         //String delquerry = "DROP TABLE "+ DatabaseContract.TempTable.TABLENAME+";";
@@ -100,12 +106,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cv.put(DatabaseContract.MemberTable.LOCATION, loc);
         if(image!=null) {
             byte b[] = ImageConverterUtility.getByteFromImage(image);
-            Log.d("IMAGE THING","image present and the size of data being "+b.length);
+            //Log.d("IMAGE THING","image present and the size of data being "+b.length);
             cv.put(DatabaseContract.MemberTable.PROFILEPIC, b);
         }else{
             byte b[] ={};
 
-            Log.d("IMAGE THING","image not present and the size of data being "+b.length);
+           // Log.d("IMAGE THING","image not present and the size of data being "+b.length);
             cv.put(DatabaseContract.MemberTable.PROFILEPIC, b);
         }
         db.insert(DatabaseContract.MemberTable.TABLENAME, null, cv);
@@ -122,6 +128,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cv.put(DatabaseContract.TempTable.DESCRIPTION,description);
         cv.put(DatabaseContract.TempTable.STARTYEAR,date);
         db.insert(DatabaseContract.TempTable.TABLENAME, null, cv);
+        Log.d("Skill", "skill inserted " + skillname);
         db.close();
     }
 
@@ -162,15 +169,83 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     //Log.d("IMAGE THING", "return bitmap then ");
                     Bitmap bitmap =  ImageConverterUtility.getImageFromByteArray(im);
                     //Log.d("IMAGE THING", "image not empty and the size being " + bitmap.getWidth()+"x"+bitmap.getHeight());
+                    db.close();
                     return bitmap;
                 }
-                else
+                else {
+                    db.close();
                     return null;
+                }
             }
-            catch (Exception e){ return null;}
+            catch (Exception e){
+                db.close();
+                return null;}
         }
+        db.close();
         return null;
     }
 
+    public ArrayList<String> search(String text){
+        ArrayList<String> s = new ArrayList<String>();
+
+        String namequerry  = "SELECT DISTINCT "+ DatabaseContract.MemberTable.EMAILID +" FROM "+ DatabaseContract.MemberTable.TABLENAME+
+                " WHERE "+ DatabaseContract.MemberTable.FIRSTNAME+" like \'%"+text+"%\' OR "+
+                DatabaseContract.MemberTable.LASTNAME+" = \'%"+text+"%\';";
+        String skillQuerry = "SELECT DISTINCT "+ DatabaseContract.SkillTable.EMAILID +" FROM "+ DatabaseContract.SkillTable.TABLENAME+
+                " WHERE "+ DatabaseContract.SkillTable.SKILLNAME+" like \'%"+text+"%\';";
+
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.rawQuery(namequerry,null);
+        if(cursor.moveToFirst()) {
+            do {
+                s.add(cursor.getString(0));
+                //Log.d("Database",cursor.getString(0)+" Added");
+            } while (cursor.moveToNext());
+        }
+
+        cursor = db.rawQuery(skillQuerry,null);
+        if(cursor.moveToFirst()) {
+            do {
+                s.add(cursor.getString(0));
+                //Log.d("Database", cursor.getString(0) + " Added");
+            } while (cursor.moveToNext());
+        }
+        db.close();
+
+        return s;
+    }
+
+    public void updateuser(String email,String fname,String lname,String location,Bitmap pic){
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        String updatefname = "UPDATE "+ DatabaseContract.MemberTable.TABLENAME+
+                " SET "+ DatabaseContract.MemberTable.FIRSTNAME+" = \'"+fname+"\' "+
+                " WHERE "+ DatabaseContract.MemberTable.EMAILID+" = \'"+email+"\';";
+
+        String updatelname = "UPDATE "+ DatabaseContract.MemberTable.TABLENAME+
+                " SET "+ DatabaseContract.MemberTable.LASTNAME+" = \'"+lname+"\' "+
+                " WHERE "+ DatabaseContract.MemberTable.EMAILID+" = \'"+email+"\';";
+
+        String updatelocation = "UPDATE "+ DatabaseContract.MemberTable.TABLENAME+
+                " SET "+ DatabaseContract.MemberTable.LOCATION+" = \'"+location+"\' "+
+                " WHERE "+ DatabaseContract.MemberTable.EMAILID+" = \'"+email+"\';";
+
+
+        db.execSQL(updatefname);
+        db.execSQL(updatelname);
+        db.execSQL(updatelocation);
+
+
+        if(pic!=null){
+            byte b[] = ImageConverterUtility.getByteFromImage(pic);
+            ContentValues cv = new ContentValues();
+            cv.put(DatabaseContract.MemberTable.PROFILEPIC,b);
+            String[] args={email};
+            db.update(DatabaseContract.MemberTable.TABLENAME,cv, DatabaseContract.MemberTable.EMAILID+"=?",args);
+        }
+
+        db.close();
+    }
 
 }

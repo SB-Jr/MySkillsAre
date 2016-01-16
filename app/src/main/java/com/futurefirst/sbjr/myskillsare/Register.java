@@ -1,8 +1,10 @@
 package com.futurefirst.sbjr.myskillsare;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -77,6 +79,12 @@ public class Register extends AppCompatActivity {
                 intent.putExtra(LASTNAMEKEY, lastname.getText().toString());
                 intent.putExtra(EMAILIDKEY, emailid.getText().toString());
                 intent.putExtra(LOCATIONKEY, location.getText().toString());
+                SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(getString(R.string.firstnamedefault), firstname.getText().toString());
+                editor.putString(getString(R.string.lastnamedefault), lastname.getText().toString());
+                editor.putString(getString(R.string.emailiddefault), emailid.getText().toString());
+                editor.commit();
                 db.close();
                 startActivity(intent);
             }

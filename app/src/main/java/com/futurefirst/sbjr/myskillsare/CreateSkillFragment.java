@@ -3,13 +3,16 @@ package com.futurefirst.sbjr.myskillsare;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -126,6 +129,7 @@ public class CreateSkillFragment extends Fragment {
         addSkillButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Log.d("Skill","Add Button pressed");
                 Intent intent = new Intent(getContext(), EditSkill.class);
                 startActivityForResult(intent, SKILLREQUEST);
             }
@@ -136,6 +140,10 @@ public class CreateSkillFragment extends Fragment {
             initSkillArray();
         }
 
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+        String userEmail = sharedPreferences.getString(getString(R.string.emailiddefault), "you Are not Logged In");
+        if((!userEmail.equalsIgnoreCase(Profile.Emailid))&&fragmenttype==Profile.FRAGMENTTYPEPROFILE)
+            setButtonInvisible();
         return v;
     }
 
@@ -164,8 +172,10 @@ public class CreateSkillFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode,resultCode,data);
         if(requestCode==SKILLREQUEST){
             if(resultCode==Activity.RESULT_OK){
+                //Log.d("Skill","result received");
                 String skill = data.getStringExtra(SKILLNAMEEDIT);
                 String date = data.getStringExtra(STARTMONTHEDIT)+"/"+data.getStringExtra(STARTYEAREDIT);
 
@@ -179,8 +189,10 @@ public class CreateSkillFragment extends Fragment {
 
                 DatabaseHelper dbhelper = new DatabaseHelper(getContext());
                 String desc = data.getStringExtra(DESCRIPTIONEDIT);
+                //Log.d("Skill","skill going to be inserted into temp table");
                 dbhelper.dbInsertTemp(skill, category, date, desc);
                 if(fragmenttype==Profile.FRAGMENTTYPEPROFILE){
+                    //Log.d("Skill","skill going to be inserted into skill table");
                     dbhelper.dbInsertSkill(Profile.Emailid);
                 }
             }

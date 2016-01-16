@@ -219,6 +219,8 @@
     <string name="descriptiondefault">Description</string>
     <string name="donebutton">Done</string>
     <string name="emailiddefault">Email Id</string>
+    <string name="entermonth">Enter the Month</string>
+    <string name="enteryear">Enter the year</string>
     <string name="firstnamedefault">First Name</string>
     <string name="lastnamedefault">Last Name</string>
     <string name="locationdefault">Location</string>

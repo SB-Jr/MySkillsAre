@@ -13,7 +13,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:weightSum="1.02">
         <TextView
             android:id="@+id/yearofpracticeedit"
@@ -22,17 +22,37 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_vertical" />
-        <Button
-            android:onClick="datePick"
-            android:background="@android:drawable/ic_menu_week"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/date_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/entermonth"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/date_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enteryear"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/datewarning"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark" />
     </LinearLayout>
     <EditText
         android:id="@+id/descriptionedit"
         android:hint="@string/descriptiondefault"
         android:inputType="textMultiLine"
-        android:lines="15"
+        android:lines="10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="vertical"

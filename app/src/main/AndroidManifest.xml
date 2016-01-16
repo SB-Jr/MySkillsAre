@@ -25,7 +25,7 @@
         <activity android:name=".SkillView" />
         <activity android:name=".EditProfile" />
         <activity android:name=".Profile" />
-        <activity android:name=".Search"></activity>
+        <activity android:name=".Search" />
     </application>
 
 </manifest>

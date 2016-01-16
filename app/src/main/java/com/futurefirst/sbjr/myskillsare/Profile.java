@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.Fragment;
@@ -17,12 +18,16 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -33,12 +38,17 @@ public class Profile extends AppCompatActivity {
     public static final String EMAILFROMPROFILE="EmailFromProfile";
     public static int PROFILEEDITKEY=3456;
 
+
+    boolean doubleBackToExitPressedOnce = false;
+
+
     CreateSkillFragment fragment[];
     ViewPager vp;
     DrawerLayout profilenavigation;
     ActionBarDrawerToggle navigationToggle;
 
     public static String Emailid;
+    public String userEmail;
 
     private String navList[] = {"Edit Profile","Technology","Arts","Communication","Science","Sign Out"};
     private ArrayList<String> navArrayList;
@@ -53,9 +63,6 @@ public class Profile extends AppCompatActivity {
 
         Emailid = getIntent().getStringExtra(Register.EMAILIDKEY);
 
-        DatabaseHelper dbhelper = new DatabaseHelper(this);
-        String s[] = dbhelper.getUserDetail(Emailid);
-
 
         fragment = new CreateSkillFragment[4];
         for(int i=0;i<4;i++) {
@@ -66,31 +73,6 @@ public class Profile extends AppCompatActivity {
         vp = (ViewPager) findViewById(R.id.profileviewpager);
         vp.setOffscreenPageLimit(4);
         vp.setAdapter(new ProfilePagerAdapter(getSupportFragmentManager()));
-
-
-        TextView tv = (TextView) findViewById(R.id.nameprofile);
-        tv.setText(s[0] + " " + s[1]);
-        TextView tv1 = (TextView) findViewById(R.id.locationprofile);
-        tv1.setText(s[2]);
-
-
-
-        TextView tv2 = (TextView) findViewById(R.id.profileview_navigation_name);
-        tv2.setTextColor(Color.WHITE);
-        tv2.setText(s[0]+" "+s[1]);
-        TextView tv3 = (TextView) findViewById(R.id.profileview_navigation_emailid);
-        tv3.setTextColor(Color.WHITE);
-        tv3.setText(Emailid);
-
-        ImageView picview = (ImageView) findViewById(R.id.profilepic_profileview);
-        ImageView navpic = (ImageView) findViewById(R.id.profileview_navigation_profilepic);
-        Bitmap image = dbhelper.getUserProfilePic(Emailid);
-        if(image!=null) {
-            //Log.d("IMAGE THING", "image not empty and the size being " + image.getWidth()+"x"+image.getHeight());
-            picview.setImageBitmap(image);
-            navpic.setImageBitmap(Bitmap.createScaledBitmap(image,140,140,false));
-        }
-        //Log.d("IMAGE THING","this is out of the if check above statement for image present or not");
 
 
         profilenavigation = (DrawerLayout) findViewById(R.id.profiledrawer);
@@ -153,12 +135,57 @@ public class Profile extends AppCompatActivity {
 
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(resultCode==PROFILEEDITKEY){
-            if(resultCode==RESULT_OK){
+    protected void onResume() {
+        super.onResume();
 
-            }
+        DatabaseHelper dbhelper = new DatabaseHelper(this);
+        String s[] = dbhelper.getUserDetail(Emailid);
+        TextView tv = (TextView) findViewById(R.id.nameprofile);
+        tv.setText(s[0] + " " + s[1]);
+        TextView tv1 = (TextView) findViewById(R.id.locationprofile);
+        tv1.setText(s[2]);
+
+        ImageView picview = (ImageView) findViewById(R.id.profilepic_profileview);
+        ImageView navpic = (ImageView) findViewById(R.id.profileview_navigation_profilepic);
+        Bitmap image = dbhelper.getUserProfilePic(Emailid);
+        if(image!=null) {
+            //Log.d("IMAGE THING", "image not empty and the size being " + image.getWidth()+"x"+image.getHeight());
+            picview.setImageBitmap(image);
         }
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        userEmail = sharedPreferences.getString(getString(R.string.emailiddefault), "you Are not Logged In");
+        TextView tv2 = (TextView) findViewById(R.id.profileview_navigation_name);
+        tv2.setTextColor(Color.WHITE);
+        String userinfo[] = dbhelper.getUserDetail(userEmail);
+        tv2.setText(userinfo[0]+" "+userinfo[1]);
+        TextView tv3 = (TextView) findViewById(R.id.profileview_navigation_emailid);
+        tv3.setTextColor(Color.WHITE);
+        tv3.setText(userEmail);
+        Bitmap userimage = dbhelper.getUserProfilePic(userEmail);
+        if(userimage!=null) {
+            //Log.d("IMAGE THING", "image not empty and the size being " + image.getWidth()+"x"+image.getHeight());
+            navpic.setImageBitmap(Bitmap.createScaledBitmap(userimage, 140, 140, false));
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.loginmenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId()==R.id.search) {
+            Intent intent = new Intent(getApplicationContext(),Search.class);
+            startActivity(intent);
+            return true;
+        }
+        if(navigationToggle.onOptionsItemSelected(item))
+            return true;
+        return super.onOptionsItemSelected(item);
     }
 
     public class ProfilePagerAdapter extends FragmentPagerAdapter{
@@ -188,6 +215,31 @@ public class Profile extends AppCompatActivity {
         public int getCount() {
             return COUNT;
         }
+    }
+
+
+    @Override
+    public void onBackPressed() {
+
+        if (userEmail.equals(Emailid)) {
+            if (doubleBackToExitPressedOnce) {
+                super.onBackPressed();
+                return;
+            }
+
+            this.doubleBackToExitPressedOnce = true;
+            Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+            new Handler().postDelayed(new Runnable() {
+
+                @Override
+                public void run() {
+                    doubleBackToExitPressedOnce = false;
+                }
+            }, 2000);
+        }
+        else
+            super.onBackPressed();
     }
 
 }

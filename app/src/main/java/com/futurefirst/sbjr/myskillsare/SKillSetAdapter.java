@@ -36,7 +36,6 @@ public class SKillSetAdapter  extends ArrayAdapter<String[]> {
         View v = convertView;
         TextView tv1,tv2;
         if(v==null){
-
             LayoutInflater inflater = ((Activity)context).getLayoutInflater();
             v = inflater.inflate(resourceLayoutId,parent,false);
         }

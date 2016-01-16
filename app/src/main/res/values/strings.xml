@@ -22,6 +22,8 @@
 
 
     <string name="setpicturedirection">Tap to add a Profile Picture</string>
+    <string name="entermonth">Enter the Month</string>
+    <string name="enteryear">Enter the year</string>
 
 
 </resources>
