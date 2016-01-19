@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.util.Log;
@@ -32,7 +33,7 @@ import java.util.List;
  */
 public class CreateSkillFragment extends Fragment {
 
-    public Button addSkillButton;
+    public FloatingActionButton addSkillButton;
 
     public ListView skillList=null;
     public ArrayList<String[]> skillListArray = new ArrayList<String[]>();
@@ -124,7 +125,7 @@ public class CreateSkillFragment extends Fragment {
         }
 
 
-        addSkillButton = (Button) v.findViewById(R.id.addskillbutton);
+        addSkillButton = (FloatingActionButton) v.findViewById(R.id.addskillbutton);
 
         addSkillButton.setOnClickListener(new View.OnClickListener() {
             @Override

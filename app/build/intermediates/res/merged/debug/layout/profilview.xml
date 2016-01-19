@@ -15,7 +15,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
 
             <ImageView
                 android:id="@+id/profilepic_profileview"
@@ -25,7 +26,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_gravity="center_vertical"
                 android:padding="20dp">
@@ -33,12 +34,18 @@
                     android:id="@+id/nameprofile"
                     android:text="@string/firstnamedefault"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"/>
                 <TextView
                     android:id="@+id/locationprofile"
                     android:text="@string/lastnamedefault"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -62,9 +69,7 @@
         </LinearLayout>
 
     </LinearLayout>
-    <!-- Main Layout ends -->
 
-    <!-- Drawer layout -->
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"

@@ -108,24 +108,26 @@ public class SkillView extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==REQUESTFOREDIT){
+            if(resultCode==RESULT_OK) {
                 String newSkill = data.getStringExtra(CreateSkillFragment.SKILLNAMEEDIT);
                 String newDescription = data.getStringExtra(CreateSkillFragment.DESCRIPTIONEDIT);
-                String newYearofstart = data.getStringExtra(CreateSkillFragment.STARTMONTHEDIT)+"/"+data.getStringExtra(CreateSkillFragment.STARTYEAREDIT);
+                String newYearofstart = data.getStringExtra(CreateSkillFragment.STARTMONTHEDIT) + "/" + data.getStringExtra(CreateSkillFragment.STARTYEAREDIT);
 
                 tv1.setText(newSkill);
                 tv2.setText(newYearofstart);
                 tv3.setText(newDescription);
 
-                String delquery = "DELETE FROM "+ DatabaseContract.SkillTable.TABLENAME+
-                        " WHERE "+ DatabaseContract.SkillTable.EMAILID+" = \'"+Profile.Emailid+"\'"+
-                        " AND "+ DatabaseContract.SkillTable.CATEGORY+" = \'"+category+"\'"+
-                        " AND "+ DatabaseContract.SkillTable.SKILLNAME+" = \'"+skill+"\';";
+                String delquery = "DELETE FROM " + DatabaseContract.SkillTable.TABLENAME +
+                        " WHERE " + DatabaseContract.SkillTable.EMAILID + " = \'" + Profile.Emailid + "\'" +
+                        " AND " + DatabaseContract.SkillTable.CATEGORY + " = \'" + category + "\'" +
+                        " AND " + DatabaseContract.SkillTable.SKILLNAME + " = \'" + skill + "\';";
                 DatabaseHelper dbhelper = new DatabaseHelper(this);
                 SQLiteDatabase db = dbhelper.getWritableDatabase();
                 db.execSQL(delquery);
                 db.close();
                 dbhelper.dbInsertTemp(newSkill, category, newYearofstart, newDescription);
                 dbhelper.dbInsertSkill(Profile.Emailid);
+            }
         }
     }
 }
